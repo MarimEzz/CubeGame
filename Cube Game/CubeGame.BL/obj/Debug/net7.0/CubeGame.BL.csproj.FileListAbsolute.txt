@@ -1,0 +1,30 @@
+C:\Users\user\Documents\GitHub\Final\CubeGame\CubeGame.BL\bin\Debug\net7.0\CubeGame.BL.deps.json
+C:\Users\user\Documents\GitHub\Final\CubeGame\CubeGame.BL\bin\Debug\net7.0\CubeGame.BL.dll
+C:\Users\user\Documents\GitHub\Final\CubeGame\CubeGame.BL\bin\Debug\net7.0\CubeGame.BL.pdb
+C:\Users\user\Documents\GitHub\Final\CubeGame\CubeGame.BL\bin\Debug\net7.0\CubeGame.DAL.dll
+C:\Users\user\Documents\GitHub\Final\CubeGame\CubeGame.BL\bin\Debug\net7.0\CubeGame.DAL.pdb
+C:\Users\user\Documents\GitHub\Final\CubeGame\CubeGame.BL\obj\Debug\net7.0\CubeGame.BL.csproj.AssemblyReference.cache
+C:\Users\user\Documents\GitHub\Final\CubeGame\CubeGame.BL\obj\Debug\net7.0\CubeGame.BL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Documents\GitHub\Final\CubeGame\CubeGame.BL\obj\Debug\net7.0\CubeGame.BL.AssemblyInfoInputs.cache
+C:\Users\user\Documents\GitHub\Final\CubeGame\CubeGame.BL\obj\Debug\net7.0\CubeGame.BL.AssemblyInfo.cs
+C:\Users\user\Documents\GitHub\Final\CubeGame\CubeGame.BL\obj\Debug\net7.0\CubeGame.BL.csproj.CoreCompileInputs.cache
+C:\Users\user\Documents\GitHub\Final\CubeGame\CubeGame.BL\obj\Debug\net7.0\CubeGame.BL.csproj.CopyComplete
+C:\Users\user\Documents\GitHub\Final\CubeGame\CubeGame.BL\obj\Debug\net7.0\CubeGame.BL.dll
+C:\Users\user\Documents\GitHub\Final\CubeGame\CubeGame.BL\obj\Debug\net7.0\refint\CubeGame.BL.dll
+C:\Users\user\Documents\GitHub\Final\CubeGame\CubeGame.BL\obj\Debug\net7.0\CubeGame.BL.pdb
+C:\Users\user\Documents\GitHub\Final\CubeGame\CubeGame.BL\obj\Debug\net7.0\ref\CubeGame.BL.dll
+C:\Users\user\Desktop\Cube Game\CubeGame.BL\bin\Debug\net7.0\CubeGame.BL.deps.json
+C:\Users\user\Desktop\Cube Game\CubeGame.BL\bin\Debug\net7.0\CubeGame.BL.dll
+C:\Users\user\Desktop\Cube Game\CubeGame.BL\bin\Debug\net7.0\CubeGame.BL.pdb
+C:\Users\user\Desktop\Cube Game\CubeGame.BL\bin\Debug\net7.0\CubeGame.DAL.dll
+C:\Users\user\Desktop\Cube Game\CubeGame.BL\bin\Debug\net7.0\CubeGame.DAL.pdb
+C:\Users\user\Desktop\Cube Game\CubeGame.BL\obj\Debug\net7.0\CubeGame.BL.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\Cube Game\CubeGame.BL\obj\Debug\net7.0\CubeGame.BL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\Cube Game\CubeGame.BL\obj\Debug\net7.0\CubeGame.BL.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\Cube Game\CubeGame.BL\obj\Debug\net7.0\CubeGame.BL.AssemblyInfo.cs
+C:\Users\user\Desktop\Cube Game\CubeGame.BL\obj\Debug\net7.0\CubeGame.BL.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\Cube Game\CubeGame.BL\obj\Debug\net7.0\CubeGame.BL.csproj.CopyComplete
+C:\Users\user\Desktop\Cube Game\CubeGame.BL\obj\Debug\net7.0\CubeGame.BL.dll
+C:\Users\user\Desktop\Cube Game\CubeGame.BL\obj\Debug\net7.0\refint\CubeGame.BL.dll
+C:\Users\user\Desktop\Cube Game\CubeGame.BL\obj\Debug\net7.0\CubeGame.BL.pdb
+C:\Users\user\Desktop\Cube Game\CubeGame.BL\obj\Debug\net7.0\ref\CubeGame.BL.dll

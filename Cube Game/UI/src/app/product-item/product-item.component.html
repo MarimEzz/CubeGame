@@ -1,0 +1,38 @@
+
+<div *ngIf="oneProduct.price!=0" class="d-flex" data-aos="fade-right">
+<div class="card">
+  <a routerLink="/Browse/{{oneProduct.productId}}"> <img class="card-img-top" src={{oneProduct.picture}} alt=""/></a>
+  <div class="card-body">
+    <p class="card-genres-hov">{{oneProduct.categoryName}}</p>
+    <h5 class="card-title" title="{{oneProduct.productName}}">{{oneProduct.productName}}</h5>
+    <div class="d-flex justify-content-between">
+      <h5><span class="price">{{oneProduct.price}}</span> EGP</h5>
+      <div>
+        <span class="cardIcon" (click)="addToWishlist(oneProduct.productId)"><i class="bi bi-heart"></i></span>
+        <span class="cardIcon cart" (click)="addToCart(oneProduct.productId)">
+          <i class="bi bi-bag"></i>
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+<div *ngIf="oneProduct.price==0" class="d-flex" data-aos="fade-right">
+  <div class="card">
+    <a routerLink="/Browse/{{oneProduct.productId}}"> <img class="card-img-top" src={{oneProduct.picture}} alt=""/></a>
+    <div class="card-body">
+      <p class="card-genres-hov">{{oneProduct.categoryName}}</p>
+      <h5 class="card-title" title="{{oneProduct.productName}}">{{oneProduct.productName}}</h5>
+      <div class="d-flex justify-content-between">
+        <h5><span class="price">Free</span></h5>
+        <div>
+          <span class="cardIcon" (click)="addToWishlist(oneProduct.productId)"><i class="bi bi-heart"></i></span>
+          <span class="cardIcon cart" (click)="addToCart(oneProduct.productId)">
+            <i class="bi bi-bag"></i>
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

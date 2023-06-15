@@ -1,0 +1,139 @@
+<body>
+  <div class="app dashboard">
+    <div class="col-2">
+      <div class="sideNav" data-aos="fade-up">
+        <div class="logo">
+          <img src="assets/img/logo.png" width="40" alt="cubegame logo" />
+          <h2>Cube Game</h2>
+        </div>
+        <div class="list-group">
+          <a class="list-group-item list-group-item-action" (click)="showC()">
+            Categories
+          </a>
+
+          <a class="list-group-item list-group-item-action" (click)="showP()">
+            Products
+          </a>
+
+          <a class="list-group-item list-group-item-action" (click)="showI()">
+            Orders
+          </a>
+        </div>
+        <a href="" class="logout" (click)="Logout()"><h5>Logout</h5></a>
+      </div>
+    </div>
+
+    <div class="AllBody col-9">
+      <a routerLink="/add-category-dashboard" *ngIf="show1">
+        <button class="btn btnStyle mt-2" type="button">
+          Add New Category
+        </button>
+      </a>
+      <a routerLink="/add-product-dashboard" *ngIf="show2">
+        <button class="btn btnStyle mt-2 mb-2" type="button">
+          Add New Product
+        </button>
+      </a>
+      <!-- Category -->
+      <table class="table text-center mt-2" *ngIf="show1">
+        <thead>
+          <tr data-aos="fade-right">
+            <th scope="col">id</th>
+            <th scope="col">Name</th>
+            <th scope="col" colspan="2">Action</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let s of AllCategories" data-aos="fade-right">
+            <th scope="row">{{ s.id }}</th>
+            <td>{{ s.categoryName }}</td>
+            <td>
+              <button class="btn btn-primary" (click)="updatecategory(s)">
+                Update
+              </button>
+            </td>
+            <td>
+              <button class="btn btn-danger" (click)="deletecategory(s.id)">
+                Delete
+              </button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+      <!-- Product -->
+      <table class="table" *ngIf="show2">
+        <thead>
+          <tr data-aos="fade-right">
+            <th scope="col">id</th>
+            <th scope="col">Name</th>
+            <th scope="col">Image</th>
+            <th scope="col">Description</th>
+            <th scope="col">Price</th>
+            <th scope="col">Discount</th>
+            <th scope="col" colspan="2" class="text-center">Action</th>
+            <!-- <th scope="col">Delete</th> -->
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let s of AllProduct" data-aos="fade-right">
+            <th scope="row">{{ s.productId }}</th>
+            <td>{{ s.productName }}</td>
+            <td><img style="width: 100px" src="{{ s.picture }}" /></td>
+            <td>{{ s.description }}</td>
+            <td>{{ s.price }}</td>
+            <td>{{ s.discount }}</td>
+            <td>
+              <button class="btn btn-primary" (click)="updateproduct(s)">
+                Update
+              </button>
+            </td>
+            <td>
+              <button
+                class="btn btn-danger"
+                (click)="deleteproduct(s.productId)"
+              >
+                Delete
+              </button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+      <section *ngIf="show3">
+        <div class="tbl-header">
+        <table class="t-order" cellpadding="0" cellspacing="0" border="0">
+        <thead>
+          <tr>
+            <!-- <th>CustomerID</th> -->
+            <th class="th-order">Orderid</th>
+            <th class="th-order">CustomerID</th>
+            <th class="th-order">CustomerName</th>
+            <th class="th-order">CartID</th>
+            <th class="th-order">orderStatus</th>
+            <th class="th-order">createdDate</th>
+            <!-- <th>Change %</th> -->
+          </tr>
+        </thead>
+      </table>
+      </div>
+      <div class="tbl-content">
+        <table class="t-order" cellpadding="0" cellspacing="0" border="0">
+          <tbody>
+            <tr *ngFor="let s of AllOrders">
+              <th class="td-order">{{ s.id }}</th>
+              <td class="td-order">{{ s.customerId }}</td>
+              <td class="td-order">{{ s.customerName }}</td>
+              <td class="td-order">{{ s.cartId }}</td>
+              <td class="td-order">{{ s.orderStatus }}</td>
+              <td class="td-order">{{ s.createdDate }}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      </section>
+
+<!-- follow me template -->
+<div class="made-with-love">
+  <img width="50px" src="assets/img/Cube.png">
+</div>

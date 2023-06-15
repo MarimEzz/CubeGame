@@ -1,0 +1,66 @@
+footer{
+  height: 280px;
+  background-color: #1F193D;
+  position: relative;
+  padding-top: 40px;
+}
+
+footer button {
+  width: 50px;
+  height: 50px;
+  background-color: #2a2157;
+  box-shadow: 10px 10px 20px #16112b;
+  color: white;
+  position: absolute;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  top: 10px;
+  right: -100px;
+  transition: ease-in 0.3s;
+}
+
+footer button:hover {
+  background-color: #645B8F;
+  top: 13px;
+}
+
+footer p.CR {
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+footer a {
+  display: block;
+  color: white;
+  font-size: 17px;
+  text-decoration: none;
+  padding-top: 4px;
+  opacity: 0.5;
+}
+footer a:hover
+{
+  opacity: 1;
+}
+footer img {
+  width: 35%;
+  padding: 8px;
+}
+.geners
+{
+  column-count: 2;
+}
+.bi-arrow-up-short
+{
+  font-size: 34px;
+}
+@media screen and (max-width: 991px) {
+  footer {
+    height: 635px;
+    padding-left: 8px;
+  }
+  footer img {
+    width: 20%;
+    padding: 10px;
+  }
+}

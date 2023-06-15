@@ -1,0 +1,265 @@
+
+<app-navigation-one></app-navigation-one>
+<div class="container-fluid d-flex">
+  <div class="login-form flex-column my-4" data-aos="zoom-in">
+    <div class="d-flex align-items-center mt-3">
+      <img alt="logo" width="60px" src="../../assets/img/logo.png">
+      <h2>CUBE GAME SignUp</h2>
+    </div>
+    <form [formGroup]="signupForm" (ngSubmit)="onSignup()">
+
+
+      <div class="d-flex justify-content-between align-items-baseline">
+
+        <div class="input-form">
+          <input formControlName="firstname" type="text" name="firstname" required autocomplete="off">
+          <label for="firstname" class="label-name">
+            <span class="content-name">Enter FirstName:</span>
+          </label>
+        </div>
+      </div>
+
+      <div class="validation-msg" *ngIf="FirstName.errors?.['required']
+      && (FirstName.touched || FirstName.dirty)">
+      <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
+        <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+        <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+      </svg>
+      &nbsp;First Name is Required</div>
+
+      <div class="validation-msg" *ngIf="FirstName.errors?.['minlength']">
+        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
+          <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+          <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+        </svg>
+        &nbsp;First Name is too short , at least 2 characters</div>
+
+      <div class="validation-msg" *ngIf="FirstName.errors?.['pattern'] && (FirstName.touched || FirstName.dirty)">
+      <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
+        <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+        <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+      </svg>
+      &nbsp; First Name must start with alphabet</div>
+
+      <div class="d-flex justify-content-between align-items-baseline">
+
+        <div class="input-form">
+          <input formControlName="lastname" type="text" name="lastname" required autocomplete="off">
+          <label for="lastname" class="label-name">
+            <span class="content-name">Enter LastName:</span>
+          </label>
+        </div>
+      </div>
+
+
+      <div class="validation-msg" *ngIf="LastName.errors?.['required']
+      && (LastName.touched || LastName.dirty)">
+      <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
+        <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+        <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+      </svg>
+      &nbsp;Last Name is Required</div>
+
+      <div class="validation-msg" *ngIf="LastName.errors?.['minlength']">
+        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
+          <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+          <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+        </svg>
+        &nbsp;Last Name is too short , at least 2 characters</div>
+
+      <div class="validation-msg" *ngIf="LastName.errors?.['pattern']
+      && (LastName.touched || LastName.dirty)">
+      <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
+        <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+        <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+      </svg>
+      &nbsp;Last Name must start with alphabet</div>
+
+      <div class="d-flex justify-content-between align-items-baseline">
+        <!-- <label for="nickname">Enter Nickname :</label>
+        <input class="form-control" formControlName="username" id="nickname"
+        type="text"  class="form-input border-bottom">
+        <span class="border-bottom-animation center input-nickname"></span> -->
+        <div class="input-form">
+          <input formControlName="username" type="text" name="nickname" required autocomplete="off">
+          <label for="nickname" class="label-name">
+            <span class="content-name">Enter NickName:</span>
+          </label>
+        </div>
+      </div>
+
+      <div class="validation-msg" *ngIf="username.errors?.['required']
+      && (username.touched || username.dirty)">
+      <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
+        <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+        <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+      </svg>
+      &nbsp;username is Required
+      </div>
+
+      <div class="d-flex justify-content-between align-items-baseline">
+
+        <div class="input-form">
+          <input formControlName="email" type="text" name="email" required autocomplete="off">
+          <label for="email" class="label-name">
+            <span class="content-name">Enter E-mail:</span>
+          </label>
+        </div>
+
+      </div>
+
+      <div class="validation-msg" *ngIf="Email.errors?.['required']
+      && (Email.touched || Email.dirty)">
+      <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
+        <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+        <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+      </svg>
+      &nbsp;Email is Required
+      </div>
+
+      <div class="validation-msg" *ngIf="Email.errors?.['email']
+      && (Email.touched || Email.dirty)">
+      <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
+        <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+        <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+      </svg>
+      &nbsp;Email is Not Valid
+      </div>
+
+          <div class="d-flex justify-content-between align-items-baseline">
+
+            <div class="input-form">
+              <input formControlName="PWD" type="text" name="pass" required autocomplete="off">
+              <label for="pass" class="label-name">
+                <span class="content-name">Enter Password:</span>
+              </label>
+            </div>
+          </div>
+
+      <div class="validation-msg" *ngIf="Password.errors?.['required']
+      && (Password.touched || Password.dirty)">
+      <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
+        <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+        <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+      </svg>
+      &nbsp;Password is required
+      </div>
+
+      <div class="validation-msg" *ngIf="Password.errors?.['pattern']
+      && (Password.touched || Password.dirty)">
+      <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
+        <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+        <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+      </svg>
+      &nbsp;Password is not strong
+        </div>
+
+      <div class="d-flex justify-content-between align-items-baseline">
+
+        <div class="input-form">
+          <input formControlName="rpwd" type="text" name="rpwd" required autocomplete="off">
+          <label for="rpwd" class="label-name">
+            <span class="content-name">Confirm Password:</span>
+          </label>
+        </div>
+      </div>
+      <div class="validation-msg" [ngStyle]="{'display':repeatPass}">
+        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
+          <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+          <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+        </svg>
+        &nbsp;Not Match
+      </div>
+
+      <button class="d-flex justify-content-center btn btn-login"
+      type="submit"
+      [disabled]="signupForm.invalid">Sign Up</button>
+    </form>
+
+    <!--Sign uo btn with Google & Facebook-->
+
+    <!-- <div class="btn-logwith d-flex flex-column">
+      <div class="auth-provider google-login m-1">
+        <svg aria-hidden="true" class="svg-icon" width="38" height="38" viewBox="0 0 20 20">
+          <g>
+            <path d="M16.51 8H8.98v3h4.3c-.18 1-.74 1.48-1.6 2.04v2.01h2.6a7.8 7.8 0 0 0 2.38-5.88c0-.57-.05-.66-.15-1.18z" fill="#4285F4"></path>
+            <path d="M8.98 17c2.16 0 3.97-.72 5.3-1.94l-2.6-2a4.8 4.8 0 0 1-7.18-2.54H1.83v2.07A8 8 0 0 0 8.98 17z" fill="#34A853"></path>
+            <path d="M4.5 10.52a4.8 4.8 0 0 1 0-3.04V5.41H1.83a8 8 0 0 0 0 7.18l2.67-2.07z" fill="#FBBC05"></path>
+            <path d="M8.98 4.18c1.17 0 2.23.4 3.06 1.2l2.3-2.3A8 8 0 0 0 1.83 5.4L4.5 7.49a4.77 4.77 0 0 1 4.48-3.3z" fill="#EA4335"></path>
+          </g>
+        </svg>
+        Log in with Google
+      </div>
+      -- <div class="auth-provider facebook-login m-1">
+        <svg aria-hidden="true" class="svg-icon" width="38" height="38" viewBox="0 0 20 20">
+          <path d="M1.88 1C1.4 1 1 1.4 1 1.88v14.24c0 .48.4.88.88.88h7.67v-6.2H7.46V8.4h2.09V6.61c0-2.07 1.26-3.2 3.1-3.2.88 0 1.64.07 1.87.1v2.16h-1.29c-1 0-1.19.48-1.19 1.18V8.4h2.39l-.31 2.42h-2.08V17h4.08c.48 0 .88-.4.88-.88V1.88c0-.48-.4-.88-.88-.88H1.88z" fill="#fff"></path>
+        </svg>
+        Log in with Facebook
+      </div> --
+    </div> -->
+    <h6 class="signbtn my-4"><a routerLink="/Login">Already have an account? Login now!</a></h6>
+
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <div class="container-fluid d-flex">
+  <div class="login-form flex-column">
+    <div class="d-flex align-items-center m-4">
+      <img alt="logo" width="60px" src="../../assets/img/logo.png">
+      <h2>CUBE GAME LogIn</h2>
+    </div>
+    <form>
+      <div class="d-flex justify-content-between align-items-baseline">
+        <label for="email">Enter Email :</label>
+        <input id="email" type="text" class="form-input border-bottom">
+        <span class="border-bottom-animation center input-email"></span>
+      </div>
+      <div class="d-flex justify-content-between align-items-baseline">
+        <label for="pass">Enter Password :</label>
+        <input id="pass" type="password" class="form-input border-bottom">
+        <span class="border-bottom-animation center input-pass"></span>
+      </div>
+      <button class="btn btn-login mx-4" type="button">Log In</button>
+    </form>
+    <div class="btn-logwith d-flex flex-column">
+      <div class="auth-provider google-login m-1">
+        <svg aria-hidden="true" class="svg-icon" width="38" height="38" viewBox="0 0 20 20">
+          <g>
+            <path d="M16.51 8H8.98v3h4.3c-.18 1-.74 1.48-1.6 2.04v2.01h2.6a7.8 7.8 0 0 0 2.38-5.88c0-.57-.05-.66-.15-1.18z" fill="#4285F4"></path>
+            <path d="M8.98 17c2.16 0 3.97-.72 5.3-1.94l-2.6-2a4.8 4.8 0 0 1-7.18-2.54H1.83v2.07A8 8 0 0 0 8.98 17z" fill="#34A853"></path>
+            <path d="M4.5 10.52a4.8 4.8 0 0 1 0-3.04V5.41H1.83a8 8 0 0 0 0 7.18l2.67-2.07z" fill="#FBBC05"></path>
+            <path d="M8.98 4.18c1.17 0 2.23.4 3.06 1.2l2.3-2.3A8 8 0 0 0 1.83 5.4L4.5 7.49a4.77 4.77 0 0 1 4.48-3.3z" fill="#EA4335"></path>
+          </g>
+        </svg>
+        Log in with Google
+      </div>
+      <div class="auth-provider facebook-login m-1">
+        <svg aria-hidden="true" class="svg-icon" width="38" height="38" viewBox="0 0 20 20">
+          <path d="M1.88 1C1.4 1 1 1.4 1 1.88v14.24c0 .48.4.88.88.88h7.67v-6.2H7.46V8.4h2.09V6.61c0-2.07 1.26-3.2 3.1-3.2.88 0 1.64.07 1.87.1v2.16h-1.29c-1 0-1.19.48-1.19 1.18V8.4h2.39l-.31 2.42h-2.08V17h4.08c.48 0 .88-.4.88-.88V1.88c0-.48-.4-.88-.88-.88H1.88z" fill="#fff"></path>
+        </svg>
+        Log in with Facebook
+      </div>
+    </div>
+    <h6 class="signbtn my-4"><a>Need an account? Sign up now!</a></h6>
+  </div>
+</div> -->

@@ -1,0 +1,16 @@
+<div class="d-flex justify-content-between">
+  <h4 class="section-one my-3" data-aos="fade-right">Games On Sale</h4>
+  <button class="btn btn-view-list btn " type="button" data-aos="fade-left">View More</button>
+</div>
+<ngx-slick-carousel class="carousel" #slickModal="slick-carousel" [config]="multislideConfig" data-aos="zoom-in" data-aos-anchor-placement="top-center">
+  <div ngxSlickItem *ngFor="let u of user">
+    <div class="card col-2">
+      <img src="{{u.picture}}" class="card-img-top" alt="{{u.productName}} image" routerLink="/Browse/{{u.productId}}">
+      <div class="card-body">
+        <p class="card-genres-hov">{{u.categoryName}}</p>
+        <h5 class="card-title" title="{{u.productName}}">{{u.productName}}</h5>
+        <span class="d-flex justify-content-between"><h5><span class="price">{{u.discount}}</span> EGP</h5><h5 class="discount"><span class="price">{{u.price}}</span> EGP</h5></span>
+      </div>
+    </div>
+  </div>
+</ngx-slick-carousel>

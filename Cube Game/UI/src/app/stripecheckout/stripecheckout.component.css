@@ -1,0 +1,16 @@
+.btn-shop
+{
+
+  width: 180px;
+  height: 48px;
+  font-size: 18px;
+  background-color: #6FE2E1;
+  color: white;
+  font-weight: bold;
+  text-shadow: 0px 3px 6px #0000002d;
+}
+.btn-shop:hover
+{
+  background-color: #6FE2E1;
+  box-shadow: 0px 1px 6px #B4D9F4;
+}

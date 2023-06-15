@@ -1,0 +1,97 @@
+.img-container
+{
+  width:100%;
+}
+.container
+{
+  padding: 0px;
+}
+.img-container img
+{
+  width: 100%;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.card-img-overlay
+{
+  position: absolute;
+  top: 130px;
+  left: 100px;
+}
+.card-title
+{
+  text-shadow: 0px 3px 6px #15102B;
+  font-weight: bold;
+  font-size: 28px;
+
+}
+.btn-addcart
+{
+  width: 205px;
+  height: 55px;
+  font-size: 22px;
+  background-color: #6FE2E1;
+  color: white;
+  font-weight: bold;
+  text-shadow: 0px 3px 6px #15102bcc;
+  box-shadow: 0px 3px 5px #15102bb9;
+
+}
+.btn-addcart:hover
+{
+  background-color: #6FE2E1;
+  box-shadow: 0px 1px 6px #B4D9F4;
+}
+.card-text
+{
+  text-shadow: 0px 3px 6px #15102b;
+  font-size: 38px;
+  width:500px;
+}
+.rate
+{
+  text-shadow: 0px 3px 6px #15102b;
+
+}
+.card-genres
+{
+  text-shadow: 0px 3px 6px #15102b;
+  font-weight: bold;
+  margin-top: -3px;
+}
+.img-prev
+{
+  position: absolute;
+  top:270px;
+  left: 340px;
+}
+.img-slide
+{
+  display: inline-block;
+  width: 140px;
+  margin: 0 5px;
+  cursor: pointer;
+  filter: brightness(0.4);
+}
+.img-slide img
+{
+  width: 140px;
+  height: 190px;
+  object-fit:cover;
+  transition: ease-in 1s;
+
+}
+.active-slide img
+{
+  box-shadow: 0px 1px 8px #181818;
+  height: 220px;
+  transition: ease-in 1s;
+}
+.active-slide
+{
+  filter: brightness(1);
+}
+.mainimg
+{
+  filter: brightness(70%);
+}

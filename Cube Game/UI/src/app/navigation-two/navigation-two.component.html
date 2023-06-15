@@ -1,0 +1,14 @@
+<nav class="navbar bg-second-nav">
+  <div class="container">
+    <form class="d-flex align-items-center" role="search"  >
+      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" [(ngModel)]="searchQuery"[ngModelOptions]="{standalone: true}" (keyup)="search()" >
+      <button class="btn btn-search">Search</button>
+      <button class="btn btn-second-nav btn-discover" type="button"><a [routerLinkActiveOptions]="{exact:true}" routerLinkActive="active-navtwo" routerLink="/">Discover</a></button>
+      <button class="btn btn-second-nav btn-browse" type="button"><a routerLinkActive="active-navtwo" routerLink="/Browse">Browse</a></button>
+      <button class="btn btn-second-nav btn-library" type="button">
+        <a routerLink="/library">Library</a>
+      </button>
+
+    </form>
+  </div>
+</nav>

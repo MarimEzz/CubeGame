@@ -1,0 +1,27 @@
+<section class="gallery my-4">
+  <div class="container">
+    <div class="img-container"  data-aos="zoom-out" data-aos-delay="100">
+      <img [src]="currentImage.picture" class="mainimg" height="550px" alt="bg" id="preview" routerLink="/Browse/{{currentImage.productId}}">
+      <div class="card-img-overlay" data-aos="fade-up">
+        <h2 class="card-title">Top 5 Most Played</h2>
+        <h1 class="card-text">{{currentImage.productName}}</h1>
+        <div class="d-flex rate">
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-half"></i>
+          <i class="bi bi-star"></i>
+          <h5 class="card-genres">&nbsp; - &nbsp;{{currentImage.categoryName}}</h5>
+        </div>
+        <h3 class="card-text card-price"><span>{{currentImage.price}}</span> EGP</h3>
+        <button class="btn btn-addcart" (click)="AddToCart(currentImage.productId)" type="button" >ADD TO CART</button>
+      </div>
+      <div class="img-prev text-center" data-aos="fade-up">
+          <div class="img-slide " *ngFor="let image of user; let i = index" [class.active-slide]="i == currentIndex" (click)="changeImage(image, i)">
+            <img [src]="image.picture" alt="bg" appMainSlider routerLink="/Browse/{{currentImage.productId}}">
+          </div>
+      </div>
+    </div>
+  </div>
+</section>
+

@@ -1,0 +1,40 @@
+<body>
+  <div class="app dashboard">
+    <div class="col-3">
+      <div class="sideNav" data-aos="fade-up">
+        <div class="logo">
+          <img src="assets/img/logo.png" width="40" alt="cubegame logo" />
+          <h2>Cube Game</h2>
+        </div>
+        <div class="list-group">
+          <a class="list-group-item list-group-item-action" routerLink="/dashboard">
+            Categories
+          </a>
+
+          <a class="list-group-item list-group-item-action" routerLink="/dashboard">
+            Products
+          </a>
+
+          <a class="list-group-item list-group-item-action">
+            Orders
+          </a>
+        </div>
+        <a href="" class="logout"><h5>Logout</h5></a>
+      </div>
+    </div>
+
+    <div class="col-8">
+      <form [formGroup]="AddCategory" (ngSubmit)="onSubmitdata()" class="container w-75 mt-3" data-aos="fade-up">
+        <h3 class="pageTitle mt-3">Add New Category</h3>
+        <div class="form-group col-sm-12 col-lg-6">
+          <label for="firstname" class="mb-1">Enter Category Name:</label>
+          <input class="form-control" formControlName="name" id="firstname" type="text">
+        </div>
+
+        <div class="submitAlignment">
+          <button class="btn submitStyle mt-3" type="submit" [disabled]="AddCategory.invalid">Add</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</body>

@@ -1,0 +1,104 @@
+.bg-first-nav
+{
+  background-color: #1F193D;
+  padding-right: 22px;
+}
+.navbar-nav .nav-link.active-navone, .navbar-nav .nav-link {
+  color: white !important;
+}
+.navbar-nav
+{
+  margin-left: 35px;
+}
+.navbar-brand
+{
+  font-family: 'Russo One';
+  font-size: 18px;
+  color: white;
+}
+.navbar-brand:hover
+{
+  color: white;
+}
+.nav-link
+{
+  color: white;
+  font-family: 'Play';
+  font-size: 22px;
+  margin-right: 15px;
+}
+.navbar-toggler
+{
+  background-color: #6FE2E1;
+  width: 60px;
+  height: 40px;
+}
+.bi-list
+{
+  color: white;
+  font-size: 30px;
+}
+.navbar-nav .nav-link.active-navone
+{
+  color: white;
+}
+.nav-item
+{
+  border-bottom: 0px solid #6FE2E1;
+}
+.active-navone,.nav-stor:hover ,.nav-cat:hover ,.nav-dist:hover
+{
+  border-bottom: 5px solid transparent;
+  border-image: linear-gradient( 90deg, #6FE2E1, transparent);
+  border-image-slice: 1;
+  transition: ease-in 0.1s;
+}
+.btn-sign
+{
+  width: 120px;
+  height: 45px;
+  font-size: 22px;
+  background-color: #6FE2E1;
+  color: white;
+  font-weight: bold;
+  text-shadow: 0px 3px 6px #0000002d;
+}
+.btn-sign:hover, .navbar-toggler:hover
+{
+  background-color: #6FE2E1;
+  box-shadow: 0px 1px 6px #B4D9F4;
+}
+.fnav-icons i
+{
+  font-size: 26px;
+  margin-top: 10px;
+  padding: 8px;
+  cursor: pointer;
+}
+i span
+{
+  font-size: 12px;
+  padding: 2px 6px;
+}
+@media screen and (min-width: 1280px) /*-- for hide the menu from tablet devices and mini than it --*/
+{
+  .fnav-icons
+  {
+    margin-left: 35vw;
+  }
+}
+a
+{
+  color: white;
+  text-decoration: none;
+}
+.dropdown-menu
+{
+  background-color: #1F193D;
+}
+.dropdown-menu a:hover
+{
+  color: #6FE2E1;
+  background-color: #645B8F;
+  transition: ease 0.1s;
+}

@@ -1,0 +1,59 @@
+<!-- ================== body ================== -->
+<app-navigation-one></app-navigation-one>
+<app-navigation-two></app-navigation-two>
+
+<div class="container">
+  <div class="browse">
+    <form action="" class="d-flex">
+     <div class="left col-9">
+        <div *ngIf="filteredProducts.length === 0">
+          <h3>No products found.</h3>
+        </div>
+        <app-product-item [oneProduct]="p" *ngFor="let p of filteredProducts">
+
+          <h3>Search Results:</h3>
+
+          <img class="card-img-top" src={{p.image}} alt=""/>
+          <div>
+            <div class="card-body">
+              <p class="card-genres-hov">{{p.categoryName}}</p>
+              <h5 class="card-title" title="{{p.productName}}">{{p.productName}}</h5>
+              <div class="d-flex justify-content-between">
+                <h5><span class="price">{{p.price}}</span> EGP</h5>
+              </div>
+            </div>
+          </div>
+        </app-product-item>
+      </div>
+      <app-product-item [oneProduct]="p" *ngFor="let p of AllProduct"></app-product-item>
+    </form>
+    <div class="right col-3" data-aos="fade-up">
+      <p class="filter">Filters</p>
+      <hr />
+      <div class="filterHover">
+        <label for="price">Price</label>
+        <select id="price" name="price" (change)="filterprice($event)">
+          <option value="" selected> All</option>
+          <option value="{{p.price}}" *ngFor="let p of price">Less Than {{p.price}}</option>
+        </select>
+      </div>
+      <hr />
+      <div class="filterHover">
+        <label for="genre">Genre</label>
+        <select id="genre" name="genre" (change)="filtercategory($event)">
+          <option value="" selected> All</option>
+          <option value="{{c.id}}" *ngFor="let c of categoryname">{{c.categoryName}}</option>
+        </select>
+      </div>
+      <hr />
+      <div class="filterHover">
+        <label for="publisher">Publisher</label>
+        <select id="publisher" name="publisher" (change)="filterdev($event)">
+          <option value="" selected> All</option>
+          <option value="{{v.developerName}}" *ngFor="let v of developerName">{{v.developerName}}</option>
+        </select>
+      </div>
+    </div>
+  </div>
+</div>
+<app-footer></app-footer>

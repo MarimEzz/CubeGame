@@ -1,0 +1,205 @@
+<app-navigation-one></app-navigation-one>
+ <app-navigation-two></app-navigation-two>
+<div class="container py-3">
+    <div class="row">
+        <div class="col-lg-8 col-sm-12">
+            <div class="row">
+                <div class="col-12  header" data-aos="fade-right">
+                    <h1>{{product.productName}}</h1>
+                    <h2>
+                        <span class="stars">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-half"></i>
+                        </span> -
+                        <span>Challengeing Combat</span>
+                    </h2>
+                </div>
+                <div class="col-12">
+
+                  <div class="row">
+
+                   <div class="col-lg-9  col-sm-12 img" data-aos="fade-up">
+
+
+
+
+                       <img id="preview" src={{product.picture}}>
+
+                       <ul class="pt-3">
+
+                           <li class="left"><h4>Geners</h4> <span>{{product.categoryName}}</span></li>
+
+                           <li class="rigth"><h4>Features</h4><Span>Comperitive , Multiplayer</Span></li>
+
+                       </ul>
+
+                   </div>
+
+                   <div class="col-lg-3 col-sm-12 ">
+
+                       <div class="slider-container">
+
+                           <h4 class="top-arrow" (click)="goToTop()">
+
+                               <i class="bi bi-chevron-compact-up rigth" id="top-arrow"></i>
+
+                           </h4>
+
+                           <div class="slider-images" id="slider-images"  >
+
+                             <img  *ngFor="let a of img" class="img" id="img"  src={{a.imageURL}} appSlider >
+
+                           </div>
+
+                           <h4 class="down-arrow" (click)=" goToDown()">
+
+                               <i class="bi bi-chevron-compact-down" id="down-arrow"></i>
+
+                           </h4>
+
+
+
+
+                       </div>
+
+                   </div>
+
+                   </div>
+
+
+
+
+               </div>
+                <div class="col-12" data-aos="fade-right">
+                    <p>{{product.description}}</p>
+                    <h1>{{product.productName}}</h1>
+                    <h4>DEFY THE LIMITS FOR FREE IN STORE</h4>
+                    <h5>FIGHT AROUND THE WORLD</h5>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam enim nostrum animi iste nemo sequi sint cumque, corrupti necessitatibus neque molestiae deserunt ut praesentium sit quibusdam earum reiciendis cupiditate expedita!</p>
+                    <h5>FIGHT AROUND THE WORLD</h5>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam enim nostrum animi iste nemo sequi sint cumque, corrupti necessitatibus neque molestiae deserunt ut praesentium sit quibusdam earum reiciendis cupiditate expedita!</p>
+                </div>
+            </div>
+            <div class="col-8">
+                <h1 calss="py-2">Specification</h1>
+                <table class="table specificTable px-5" data-aos="fade-up">
+                    <tr>
+                        <th>
+                            <div class="top-select">
+
+                            </div>
+                            <div class="form-box">
+                                <div class="button-box">
+                                <!-- <div id="btn" class="d-flex flex-col" ></div> -->
+                                    <button type="button" id="toggle-btn1"  appLeftClick>Windows </button>
+                                    <span class="space"> | </span>
+                                    <div id="btn" class="d-flex flex-col" ></div>
+                                    <button type="button" id="toggle-btn2" appRighttClick >MAC</button>
+
+                                </div>
+                            </div>
+                        </th>
+                        <th></th>
+                    </tr>
+                    <tr>
+                        <td><h3>Minimum</h3></td>
+                        <td><h3>Recommended</h3></td>
+                    </tr>
+                    <tr data-aos="fade-right">
+                        <td>
+                            <h4>OS</h4>
+                <p>{{product.platform}} </p>
+                        </td>
+                        <td>
+                            <h4>OS</h4>
+                            <p>Windows </p>
+                        </td>
+                    </tr>
+                    <tr data-aos="fade-right">
+                        <td>
+                            <h4>Processor</h4>
+                            <p> {{product.processor}} </p>
+                        </td>
+                        <td>
+                            <h4>Processor</h4>
+                            <p> Intel Core i7-4790 or AMD Ryzen 3 3200G </p>
+                        </td>
+                    </tr>
+                    <tr data-aos="fade-right">
+                        <td>
+                            <h4>Memory</h4>
+                            <p>Ram {{product.ram}} G</p>
+                        </td>
+                        <td>
+                            <h4>Memory</h4>
+                            <p>Ram 4 G</p>
+                        </td>
+                    </tr>
+                    <tr data-aos="fade-right">
+                        <td>
+                            <h4>Graphics</h4>
+                            <p>NVIDIA GeForce GTX 970 or AMD Radeon RX 470</p>
+                        </td>
+                        <td>
+                            <h4>Graphics</h4>
+                            <p>NVIDIA GeForce GTX 1060 or AMD Radeon R9 Fury</p>
+                        </td>
+                    </tr>
+                    <tr data-aos="fade-right">
+                        <td colspan="2">
+                            <h4>Language support</h4>
+                            <p>AUDIO: English, French, German, Italian, Spanish - Spain, Japanese, Polish, Portuguese - Brazil, Chinese - Simplified, Korean, Russian
+                              TEXT: Spanish - Latin America, Thai, Czech, Hungarian, Chinese - Traditional, Arabic, Turkish, English, Italian, Spanish - Spain, Japanese, Portuguese - Brazil, Chinese - Simplified, French, German, Korean, Polish, Russian
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="col-lg-4 col-sm-12">
+            <div class="col-12">
+                <table class="table sidebar" data-aos="fade-left">
+                    <tbody>
+                        <tr>
+                         <td>Developer </td>
+                         <td>{{product.developerName}} </td>
+                        </tr>
+                        <tr>
+                            <td>Publisher </td>
+                            <td>Riot Game </td>
+                        </tr>
+                        <tr>
+                            <td>Release Data </td>
+                            <td>{{product.releaseDate}} </td>
+                        </tr>
+                        <tr>
+                            <td>Plat Form </td>
+                            <td><i class="bi bi-windows"></i><i class="bi bi-apple"></i>{{product.platform}} </td>
+                        </tr>
+                        <tr>
+                            <td>Price </td>
+                            <td>{{product.price}} EGP</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" class="tablebtn">
+                             <button  (click)=" addcart(product.productId)" class="btn">ADD TO CART</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" class="tablebtn">
+                             <button (click)=" addToWishlist(product.productId)" class="btn socend">ADD TO Wishlist</button>
+                            </td>
+                        </tr>
+                    </tbody>
+                  </table>
+            </div>
+
+        </div>
+    </div>
+
+  </div>
+
+  <app-footer></app-footer>

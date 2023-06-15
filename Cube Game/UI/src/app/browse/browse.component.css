@@ -1,0 +1,159 @@
+ /* ================== body ==================  */
+
+ .browse{
+  display: flex;
+}
+
+.left{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cardItem{
+  background-color: #1F193D;
+  width: 220px;
+  height: 380px;
+  margin-top: 20px;
+  margin-right: 20px;
+  border-radius: 10px;
+  text-align: center;
+  padding-top: 27px;
+  border: 1px solid #110d24;
+  box-shadow: 1px 2px 2px #110d24;
+}
+
+.cardItem:hover .genreColor{
+  color: rgb(31, 25, 61);
+  transition: all 1s;
+  text-decoration: underline;
+
+}
+
+.cardItem:not(:hover) .genreColor{
+  color: rgb(100, 92, 143);
+  transition: ease-in 0.2s;
+}
+
+.cardItem:hover{
+  background-color: rgb(100, 92, 143);
+  transition: ease-in 0.2s;
+}
+
+.cardItem:not(:hover){
+  background-color: rgb(31, 25, 61);
+  transition: ease-in 0.2s;
+}
+
+.cardItem img{
+  width: 85%;
+  border-radius: 10px;
+  box-shadow: 1px 2px 2px #110d24;
+
+}
+.cardItem:hover img{
+  filter: brightness(135%);
+  transition: ease-in 0.2s;
+}
+
+.details{
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-size: 10px;
+  width: 85%;
+  margin:auto;
+  text-align: center;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.genrePrice{
+  display: flex;
+  justify-content: space-between;
+  font-size: 17px;
+  margin-top: 10px;
+  align-items: center
+}
+
+.nameIcons{
+  display: flex;
+  justify-content: space-between;
+  font-size: 17px;
+  position: relative;
+  bottom: 15px;
+  align-items: baseline;
+}
+
+.cardIcon{
+  cursor: pointer;
+}
+
+.price{
+  font-size: 20px;
+}
+
+.gameName{
+  font-size: 22px;
+}
+
+.genreColor{
+  color: rgb(100, 92, 143);
+}
+
+.cart{
+  position: relative;
+  left: 28px;
+}
+
+
+
+.filter{
+  color: white;
+  font-family: 'play';
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.right{
+  position: fixed;
+  left: 70%;
+  padding: 20px;
+  background-color: #15102B;
+  padding: 10px;
+  border-radius: 7px;
+}
+hr{
+  border: 1px solid rgb(100, 92, 143);
+  width: 100%;
+}
+.filterHover label
+{
+  font-size: 18px;
+}
+.filterHover select
+{
+  border: none;
+  background-color: #15102B;
+  color: white;
+  padding: 8px;
+  width: 210px;
+  font-size: 18px;
+  -webkit-appearance: button;
+  appearance: button;
+  outline: none;
+  float: right;
+  margin-top: -5px;
+  text-align: right;
+}
+*::-webkit-scrollbar {
+  width: 5px;
+}
+*::-webkit-scrollbar-track {
+  background: rgb(100, 92, 143);
+}
+*::-webkit-scrollbar-thumb {
+  background: #1F193D;
+}
+*::-webkit-scrollbar-thumb:hover {
+  background: #1F193D;
+}

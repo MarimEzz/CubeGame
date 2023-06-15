@@ -1,0 +1,52 @@
+<nav class="navbar navbar-expand-lg bg-first-nav">
+  <div class="container-fluid">
+    <a class="navbar-brand mx-3" routerLink="/">
+      <img src="assets/img/logo.png" width="40" alt="cubegame logo">
+      CUBE GAME
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <i class="bi bi-list"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link nav-stor" [routerLinkActiveOptions]="{exact:true}" routerLinkActive="active-navone" routerLink="/">STORE</a>
+        </li>
+        <!-- <li class="nav-item dropdown">
+          <a class="nav-link nav-cat dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            GENRES
+          </a>
+          <ul class="dropdown-menu" >
+            <li><a class="dropdown-item" href="#" *ngFor="let g of catg">{{g.categoryName}}</a></li>
+          </ul>
+        </li> -->
+        <li class="nav-item">
+          <a class="nav-link nav-dist" routerLinkActive="active-navone" routerLink="/Distribution">DISTRIBUTION</a>
+        </li>
+      </ul>
+      <div class="fnav-icons d-flex justify-content-end">
+          <i class="bi bi-heart " routerLinkActive="active-wishlist" routerLink="/wishlist">
+            <span class="position-absolute top-10 start-10 translate-middle bg-danger border border-light rounded-circle">{{total1}}</span>
+          </i>
+
+
+        <i class="bi bi-bag " routerLink="/cart">
+          <span class="position-absolute
+           top-10 start-10 translate-middle
+           bg-danger border border-light rounded-circle">{{total}}</span>
+        </i>
+      </div>
+       <ng-container *ngIf="Logged" >
+        <span class="mx-3" >Hello,{{fullName}}</span>
+        <button class="btn btn-sign mx-4" type="button" (click)="logOut()">logOut</button>
+       </ng-container>
+
+       <ng-container *ngIf="!Logged" >
+        <a routerLink="/Signup">
+          <button class="btn btn-sign ms-5" type="button">Sign Up</button>
+        </a>
+       </ng-container>
+
+      </div>
+    </div>
+</nav>

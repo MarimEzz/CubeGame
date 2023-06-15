@@ -1,0 +1,141 @@
+body{
+  background-color: #645B8F;
+  font-family: 'play';
+}
+
+h2{ /* website name */
+  font-family: 'russo one';
+}
+
+.dashboard{
+  display: flex;
+  justify-content: flex-start;
+}
+
+.logo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sideNav{
+  width: 20%;
+  height: 100vh;
+  background-color: #1F193D;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  position: fixed;
+}
+
+.btnStyle{
+  background-color: #1F193D;
+  color: white;
+  border-bottom: 1px solid #645B8F;
+}
+
+
+.list-group{
+  width: 12vw;
+  cursor: pointer;
+}
+
+.list-group-item{
+  background-color: #645B8F;
+  color: white;
+}
+
+.list-group-item:hover{
+  background-color: #1F193D;
+  transition: 0.4s all;
+}
+
+.logout{
+  color: white;
+  text-decoration: none;
+}
+
+.AllBody{
+  width: 80%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+table {
+  border-radius: 5px;
+  overflow: hidden;
+  background-color: #1F193D;
+  width: 70vw;
+}
+
+th, td{
+  color: white;
+}
+
+
+/* -----------------------------Order Table--------------------------- */
+
+
+.t-order{
+  width:100%;
+  table-layout: fixed;
+}
+.tbl-header{
+  background-color: rgba(255,255,255,0.3);
+ }
+.tbl-content{
+  height:300px;
+  overflow-x:auto;
+  margin-top: 0px;
+  border: 1px solid rgba(255,255,255,0.3);
+}
+.th-order{
+  padding: 20px 15px;
+  text-align: left;
+  font-weight: 500;
+  font-size:  18px;
+  color: #fff;
+  text-transform: uppercase;
+}
+.td-order{
+  padding: 15px;
+  text-align: left;
+  vertical-align:middle;
+  font-weight: 300;
+  font-size: 15px;
+  color: #fff;
+  border-bottom: solid 1px rgba(255,255,255,0.1);
+}
+
+/* demo styles */
+section{
+  margin: 50px;
+}
+
+/* follow me template */
+.made-with-love {
+  margin-top: 40px;
+  padding: 10px;
+  clear: left;
+  text-align: center;
+  font-size: 10px;
+  font-family: arial;
+  color: #fff;
+}
+
+/* for custom scrollbar for webkit browser*/
+::-webkit-scrollbar {
+    width: 6px;
+}
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+::-webkit-scrollbar-thumb {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+

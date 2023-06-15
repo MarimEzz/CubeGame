@@ -1,0 +1,19 @@
+.element{
+  height:80px;
+  width: 270px;
+  border-radius:8px;
+  margin:10px;
+  display:flex;
+}
+
+img{
+    height: 80px;
+    width:270px;
+    cursor: pointer;
+    -o-object-fit:cover;
+       object-fit:cover;
+}
+.slick-slide
+{
+  height: 80px;
+}

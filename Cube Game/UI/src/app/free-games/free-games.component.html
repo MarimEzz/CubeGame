@@ -1,0 +1,28 @@
+<div class="container-free" data-aos="zoom-in" data-aos-anchor-placement="top-center">
+  <div class="d-flex justify-content-between my-3">
+    <div class="d-flex mx-3">
+      <img src="../../assets/img/gift.png" width="55px"> &nbsp;&nbsp;&nbsp;&nbsp;
+      <h1>Free Games</h1>
+    </div>
+    <div>
+      <button class="btn btn-view btn mx-4" type="button">View More</button>
+    </div>
+  </div>
+
+      <ngx-slick-carousel class="carousel mt-2" #slickModal="slick-carousel" [config]="multislideConfig">
+        <div ngxSlickItem *ngFor="let u of user">
+          <div class="card-free m-2">
+            <img src="{{u.picture}}" class="card-img-top-free" alt="{{u.productName}} image" routerLink="/Browse/{{u.productId}}">
+            <div class="card-body-free">
+              <p class="free-tag">FREE GAME</p>
+            </div>
+            <div class="card-free-text">
+              <h5 class="card-title" title="{{u.productName}}">{{u.productName}}</h5>
+              <p>{{u.releaseDate}}</p>
+            </div>
+          </div>
+        </div>
+      </ngx-slick-carousel>
+
+</div>
+

@@ -1,0 +1,6 @@
+<!--LTR-->
+<ngx-slick-carousel class="carousel slider" dir="rtl" #slickModal="slick-carousel" [config]="multislideConfig">
+  <div ngxSlickItem *ngFor="let u of user" >
+    <div class="element"><img src="{{u.picture}}" routerLink="/Browse/{{u.productId}}"></div>
+  </div>
+</ngx-slick-carousel>

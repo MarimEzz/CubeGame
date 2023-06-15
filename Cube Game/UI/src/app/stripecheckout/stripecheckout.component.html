@@ -1,0 +1,17 @@
+<h2>Stripe Checkout Gateway</h2>
+
+<div *ngIf="showPayButton" class="mb-3">
+   <button id="pay" class="btn btn-shop  mx-1" (click)="makePayment()">Pay With Stripe</button>
+</div>
+<button routerLink="/Browse" class="btn btn-shop  mx-1">Shop More</button>
+
+<div *ngIf = "success">
+
+  <h1>Your Payment is Successfull</h1>
+
+  <button routerLink="/library" class="btn btn-shop  mx-1">View Your Order</button>
+
+</div>
+<div *ngIf = "failure">
+    <h1>Payment Error is There</h1>
+</div>

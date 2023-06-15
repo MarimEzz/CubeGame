@@ -1,0 +1,73 @@
+<div class="row">
+  <div class="col-8">
+    <ng-container *ngIf="AllProductCart.length !=0">
+      <div class="container my-4">
+        <button class="btn-back" routerLink="/"><i class="bi bi-arrow-left"></i></button>
+
+        <h1>My Cart</h1>
+
+        <div class="container-head">
+          <p style="width:10px; ">Sr.No</p>
+          <p>Product Image</p>
+          <p style="width:250px; ">Product Name</p>
+          <p>Price</p>
+          <p>Discount</p>
+          <p>Price After Discount</p>
+        </div>
+              <div class="cart-product">
+
+                <div class="container-list" *ngFor="let item of AllProductCart; let i = index">
+                    <div style="width:40px; ">{{i+1}}</div>
+                    <div>
+                      <img width="80px" alt="card-list" src="{{item.image}}">
+                    </div>
+                    <div style="width:250px; "><h4>{{item.productName}}</h4></div>
+                    <div><h4>{{item.price}} <span> EGP</span></h4></div>
+                    <div><h4>{{item.discount}}%</h4></div>
+                    <div><h4>{{item.priceAfterDiscount}} <span> EGP</span></h4></div>
+                  </div>
+                </div>
+              </div>
+    </ng-container>
+
+  </div>
+
+  <div class="col-4 container my-4">
+    <h1>OrderDetails</h1>
+
+    <form [formGroup]="CheckOut" *ngIf="AllUserData">
+
+    <div class="form-group col-6 mb-2">
+      Your Email :
+      <input class="form-control" formControlName="Email" type="email" name="email" [(ngModel)]="AllUserData.email">
+    </div>
+
+     <div class="form-group col-6 mb-2">
+      Your FirstName:
+       <input class="form-control" formControlName="FirstName" type="text" name="firstname" [(ngModel)]="AllUserData.firstName">
+     </div>
+
+     <div class="form-group col-6 mb-2">
+      Your LastName:
+       <input class="form-control" formControlName="lastName" type="text" name="lastName" [(ngModel)]="AllUserData.lastName">
+     </div>
+
+   </form>
+
+   <div class="totalDetails container mt-4">
+    <p>OrderSubTotal = {{Total}}$</p>
+
+    <p>Taxes = 20$</p>
+
+    <p>Total = {{Total + 20}}$</p>
+
+   </div>
+
+   <button class=" btn btn-checkout2 mt-4" routerLink="/cart">Go To Basket</button>
+   <button class=" btn btn-checkout2 mt-4" routerLink="/stripecheckout">Go To Payment</button>
+
+  </div>
+
+
+</div>
+

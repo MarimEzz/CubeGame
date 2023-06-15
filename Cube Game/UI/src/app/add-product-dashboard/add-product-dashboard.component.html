@@ -1,0 +1,186 @@
+<body>
+  <div class="app dashboard">
+    <div class="col-3">
+      <div class="sideNav" data-aos="fade-up">
+        <div class="logo">
+          <img src="assets/img/logo.png" width="40" alt="cubegame logo" />
+          <h2>Cube Game</h2>
+        </div>
+        <div class="list-group">
+          <a class="list-group-item list-group-item-action" routerLink="/dashboard">
+            Categories
+          </a>
+
+          <a class="list-group-item list-group-item-action" routerLink="/dashboard">
+            Products
+          </a>
+
+          <a class="list-group-item list-group-item-action" routerLink="/dashboard">
+            Orders
+          </a>
+        </div>
+        <a href="" class="logout"><h5>Logout</h5></a>
+      </div>
+    </div>
+
+    <div class="col-8">
+      <form [formGroup]="AddProduct" (ngSubmit)="onSubmitdata()" class="container w-75" data-aos="fade-up">
+        <h3 class="pageTitle mt-3">Add New Product</h3>
+        <div class="row mt-3" data-aos="fade-up">
+          <div class="form-group col-sm-12 col-lg-6">
+            <label for="ProductName" class="mb-1">Enter Product Name</label>
+            <input type="text" formControlName="productname" class="form-control" id="ProductName">
+          </div>
+          <div class="form-group col-sm-12 col-lg-6 mt-sm-3 mt-lg-0 number-input">
+            <label for="ProductPrice" class="mb-1">Enter Product Price</label>
+            <input type="number" formControlName="productprice" class="form-control" id="ProductPrice">
+          </div>
+        </div>
+
+        <div class="row mt-3" data-aos="fade-up">
+          <div class="form-group col-sm-12 col-lg-6">
+            <label for="ProductDiscount" class="mb-1">Enter Product Discount</label>
+            <input type="number" formControlName="productdiscount" class="form-control" id="ProductDiscount">
+          </div>
+          <div class="form-group col-sm-12 col-lg-6 mt-sm-3 mt-lg-0">
+            <label for="ProductRate" class="mb-1">Enter Product Rate</label>
+            <input type="number" formControlName="productrate" class="form-control" id="ProductRate">
+          </div>
+        </div>
+
+        <div class="row mt-3" data-aos="fade-up">
+          <div class="form-group col-sm-12 col-lg-6">
+            <label for="ChooseCategory" class="mb-1">Choose Category</label>
+            <select [(ngModel)]="selectedCategoryId" class="form-control" formControlName="categoryP" id="ChooseCategory">
+              <option *ngFor="let category of AllCategories" [value]="category.id">{{ category.categoryName }}</option>
+              </select>
+          </div>
+          <div class="form-group col-sm-12 col-lg-6 mt-sm-3 mt-lg-0">
+            <label for="DeveloperName" class="mb-1">Enter Developer Name</label>
+            <input type="text" formControlName="developer" class="form-control" id="DeveloperName">
+          </div>
+        </div>
+
+        <div class="row mt-3" data-aos="fade-up">
+          <div class="form-group col-sm-12 col-lg-6">
+            <label for="ReleaseDate" class="mb-1">Enter Release Date</label>
+            <input type="date" formControlName="releasedate" class="form-control" id="ReleaseDate" [max]="getTodayDate()">
+          </div>
+          <div class="form-group col-sm-12 col-lg-6 mt-sm-3 mt-lg-0">
+            <label for="ProcessorType" class="mb-1">Enter Processor Type</label>
+            <input type="text" formControlName="processor" class="form-control" id="ProcessorType">
+          </div>
+        </div>
+
+        <div class="row mt-3" data-aos="fade-up">
+          <div class="form-group col-sm-12 col-lg-6">
+            <label for="RAMSize" class="mb-1">Enter RAM Size</label>
+            <input type="number" formControlName="ram" class="form-control" id="RAMSize">
+          </div>
+          <div class="form-group col-sm-12 col-lg-6 mt-sm-3 mt-lg-0">
+            <label for="ChoosePlatform" class="mb-1">Choose Platform</label>
+            <select [(ngModel)]="selectedtype" class="form-control" formControlName="os" id="ChoosePlatform">
+              <option *ngFor="let p of platform" [value]="p">{{p}}</option>
+              </select>
+          </div>
+        </div>
+
+        <div class="form-group mt-3" data-aos="fade-up">
+          <label for="ProductDescription" class="mb-1">Enter Product Description</label>
+          <textarea class="form-control" formControlName="productdes" id="ProductDescription" rows="3" name="message"></textarea>
+        </div>
+
+        <div class="checks mt-3" data-aos="fade-up">
+          <div class="row mt-2" data-aos="fade-up">
+            <div class="col-sm-12 col-md-6 col-lg-3">
+              <label>IsMostPopular?</label>
+              <div *ngFor="let TorF of TF">
+                <label>
+                  <input  type="radio" name="MPop" [value]="TorF"
+                  formControlName="MPop" [(ngModel)]="popular">
+                  {{TorF}}
+                </label>
+              </div>
+            </div>
+
+            <div class="col-sm-12 col-md-6 col-lg-3 mt-sm-3 mt-md-0 mt-lg-0">
+              <label>IsMostPlayed?</label>
+              <div *ngFor="let TorF2 of TF">
+                <label>
+                  <input type="radio" name="Mp" [value]="TorF2"
+                  formControlName="Mp"  [(ngModel)]="most">
+                  {{TorF2}}
+                </label>
+              </div>
+            </div>
+
+            <div class="col-sm-12 col-md-6 col-lg-3 mt-sm-3 mt-md-3 mt-lg-0">
+              <label>IsGameOnSale?</label>
+              <div *ngFor="let TorF3 of TF">
+                <label>
+                  <input [value]='TorF3' name="Gsale"
+                 formControlName="Gsale" type="radio" [(ngModel)]="sale">
+                  {{TorF3}}
+                </label>
+              </div>
+            </div>
+
+            <div class="col-sm-12 col-md-6 col-lg-3 mt-sm-3 mt-md-3 mt-lg-0">
+              <label>IsRecentlyUpdated?</label>
+              <div *ngFor="let TorF4 of TF">
+                <label >
+                  <input  [value]='TorF4' name="up"
+                  formControlName="up" type="radio" [(ngModel)]="updated">
+                  {{TorF4}}
+                </label>
+              </div>
+            </div>
+
+          </div>
+
+
+          <div class="row mt-2" data-aos="fade-up">
+            <div class="col-sm-12 col-md-6 col-lg-3 mt-sm-0 mt-md-0 mt-lg-0">
+              <label>IsNewRelease?</label>
+              <div *ngFor="let TorF5 of TF">
+                <label >
+                  <input  [value]='TorF5' name="rel"
+                  formControlName="rel" type="radio" [(ngModel)]="release">
+                  {{TorF5}}
+                </label>
+              </div>
+            </div>
+
+            <div class="col-sm-12 col-md-6 col-lg-3 mt-sm-3 mt-md-0 mt-lg-0">
+              <label>IsTopSeller?</label>
+              <div *ngFor="let TorF6 of TF">
+                <label>
+                  <input [value]='TorF6' name="topS"
+                 formControlName="topS"
+                  type="radio" [(ngModel)]="top">
+                  {{TorF6}}
+                </label>
+              </div>
+            </div>
+
+            <div class="col-sm-12 col-lg-3 mt-sm-3 mt-lg-0">
+              <label>IsComingSoon?</label>
+              <div *ngFor="let TorF of TF">
+                <label>
+                  <input [value]='TorF' name="Csoon"
+                  formControlName="Csoon" type="radio"[(ngModel)]="soon">
+                  {{TorF}}
+                </label>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+          <div class="submitAlignment">
+            <button class="btn submitStyle mt-3" type="submit" [disabled]="AddProduct.invalid">Add</button>
+          </div>
+      </form>
+    </div>
+  </div>
+</body>

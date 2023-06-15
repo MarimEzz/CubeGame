@@ -1,0 +1,42 @@
+
+<app-navigation-one></app-navigation-one>
+<app-navigation-two></app-navigation-two>
+
+<section>
+  <!--for demo wrap-->
+  <h1>Your Orders</h1>
+  <div class="tbl-header">
+    <table cellpadding="0" cellspacing="0" border="0">
+      <thead>
+        <tr>
+          <!-- <th>CustomerID</th> -->
+          <th>OrderID</th>
+          <th>OrderStatus</th>
+          <th>totalPaid</th>
+          <th>createdDate</th>
+          <!-- <th>Change %</th> -->
+        </tr>
+      </thead>
+    </table>
+  </div>
+  <div class="tbl-content">
+    <table cellpadding="0" cellspacing="0" border="0">
+      <tbody>
+        <tr *ngFor="let item of AllOrders">
+          <!-- <td >{{item.customerId}}</td> -->
+          <td>{{item.id}}</td>
+          <td>{{item.orderStatus}}</td>
+          <td>{{item.totalPaid}}</td>
+          <td>{{item.createdDate}}</td>
+          <!-- <td>{{item.}}</td> -->
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+
+<!-- follow me template -->
+<div class="made-with-love">
+  <img width="50px" src="assets/img/Cube.png">
+</div>
