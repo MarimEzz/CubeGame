@@ -9,16 +9,16 @@ Currently, the project is not available online due to ongoing updates being cond
 <div style="display:flex;">
 <img src="https://github.com/MarimEzz/CubeGame/blob/main/screenshots/API%20Swagger.png" width="450" height="500">
 <img src="https://github.com/MarimEzz/CubeGame/blob/main/screenshots/database%20tables.jpeg" width="450" height="500">
-<img src="https://github.com/MarimEzz/CubeGame/blob/main/screenshots/signup.png" width="500" height="500">
-<img src="https://github.com/MarimEzz/CubeGame/blob/main/screenshots/login.png" width="500" height="500">
-<img src="https://github.com/MarimEzz/CubeGame/blob/main/screenshots/about-distribution.png" width="500" height="500">
-<img src="https://github.com/MarimEzz/CubeGame/blob/main/screenshots/discover%20by%20lists.png" width="500" height="500">
-<img src="https://github.com/MarimEzz/CubeGame/blob/main/screenshots/browse.png" width="500" height="500">
-<img src="https://github.com/MarimEzz/CubeGame/blob/main/screenshots/filter%20by%20genre.png" width="500" height="500">
-<img src="https://github.com/MarimEzz/CubeGame/blob/main/screenshots/filter.png" width="500" height="500">
-<img src="https://github.com/MarimEzz/CubeGame/blob/main/screenshots/search.png" width="500" height="500">
-<img src="https://github.com/MarimEzz/CubeGame/blob/main/screenshots/cover%20game.png" width="500" height="500">
-<img src="https://github.com/MarimEzz/CubeGame/blob/main/screenshots/wishlist.png" width="500" height="500">
-<img src="https://github.com/MarimEzz/CubeGame/blob/main/screenshots/cart.png" width="500" height="500">
-<img src="https://github.com/MarimEzz/CubeGame/blob/main/screenshots/payment.png" width="500" height="500">
+<img src="https://github.com/MarimEzz/CubeGame/blob/main/screenshots/signup.png" width="450" height="300">
+<img src="https://github.com/MarimEzz/CubeGame/blob/main/screenshots/login.png" width="450" height="300">
+<img src="https://github.com/MarimEzz/CubeGame/blob/main/screenshots/about-distribution.png" width="450" height="500">
+<img src="https://github.com/MarimEzz/CubeGame/blob/main/screenshots/discover%20by%20lists.png" width="450" height="500">
+<img src="https://github.com/MarimEzz/CubeGame/blob/main/screenshots/browse.png" width="450" height="500">
+<img src="https://github.com/MarimEzz/CubeGame/blob/main/screenshots/filter%20by%20genre.png" width="450" height="500">
+<img src="https://github.com/MarimEzz/CubeGame/blob/main/screenshots/filter.png" width="450" height="500">
+<img src="https://github.com/MarimEzz/CubeGame/blob/main/screenshots/search.png" width="450" height="500">
+<img src="https://github.com/MarimEzz/CubeGame/blob/main/screenshots/cover%20game.png" width="450" height="500">
+<img src="https://github.com/MarimEzz/CubeGame/blob/main/screenshots/wishlist.png" width="450" height="500">
+<img src="https://github.com/MarimEzz/CubeGame/blob/main/screenshots/cart.png" width="450" height="500">
+<img src="https://github.com/MarimEzz/CubeGame/blob/main/screenshots/payment.png" width="450" height="500">
 </div>
