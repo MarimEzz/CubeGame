@@ -1,159 +1,159 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\user\\Desktop\\Cube Game\\CubeGame\\wwwroot\\uploads\\1.png",
+      "Id": "D:\\my hard\\ITI\\Graduation project\\CubeGame\\Cube Game\\CubeGame\\wwwroot\\uploads\\1.png",
       "PackagePath": "staticwebassets\\uploads\\1.png"
     },
     {
-      "Id": "C:\\Users\\user\\Desktop\\Cube Game\\CubeGame\\wwwroot\\uploads\\2.png",
+      "Id": "D:\\my hard\\ITI\\Graduation project\\CubeGame\\Cube Game\\CubeGame\\wwwroot\\uploads\\2.png",
       "PackagePath": "staticwebassets\\uploads\\2.png"
     },
     {
-      "Id": "C:\\Users\\user\\Desktop\\Cube Game\\CubeGame\\wwwroot\\uploads\\22.jpg",
+      "Id": "D:\\my hard\\ITI\\Graduation project\\CubeGame\\Cube Game\\CubeGame\\wwwroot\\uploads\\22.jpg",
       "PackagePath": "staticwebassets\\uploads\\22.jpg"
     },
     {
-      "Id": "C:\\Users\\user\\Desktop\\Cube Game\\CubeGame\\wwwroot\\uploads\\3.png",
+      "Id": "D:\\my hard\\ITI\\Graduation project\\CubeGame\\Cube Game\\CubeGame\\wwwroot\\uploads\\3.png",
       "PackagePath": "staticwebassets\\uploads\\3.png"
     },
     {
-      "Id": "C:\\Users\\user\\Desktop\\Cube Game\\CubeGame\\wwwroot\\uploads\\4.png",
+      "Id": "D:\\my hard\\ITI\\Graduation project\\CubeGame\\Cube Game\\CubeGame\\wwwroot\\uploads\\4.png",
       "PackagePath": "staticwebassets\\uploads\\4.png"
     },
     {
-      "Id": "C:\\Users\\user\\Desktop\\Cube Game\\CubeGame\\wwwroot\\uploads\\EGS_BusSimulator21NextStop_stillalivestudios_S2_1200x1600-79304bca6b4b6f8abeeb7077ea30d0e0.jpg",
+      "Id": "D:\\my hard\\ITI\\Graduation project\\CubeGame\\Cube Game\\CubeGame\\wwwroot\\uploads\\EGS_BusSimulator21NextStop_stillalivestudios_S2_1200x1600-79304bca6b4b6f8abeeb7077ea30d0e0.jpg",
       "PackagePath": "staticwebassets\\uploads\\EGS_BusSimulator21NextStop_stillalivestudios_S2_1200x1600-79304bca6b4b6f8abeeb7077ea30d0e0.jpg"
     },
     {
-      "Id": "C:\\Users\\user\\Desktop\\Cube Game\\CubeGame\\wwwroot\\uploads\\EGS_EASPORTSFIFA23UltimateEdition_EACanada_Editions_S2_1200x1600-818a94c682b55e8c54f4e3d837782ff9.jpg",
+      "Id": "D:\\my hard\\ITI\\Graduation project\\CubeGame\\Cube Game\\CubeGame\\wwwroot\\uploads\\EGS_EASPORTSFIFA23UltimateEdition_EACanada_Editions_S2_1200x1600-818a94c682b55e8c54f4e3d837782ff9.jpg",
       "PackagePath": "staticwebassets\\uploads\\EGS_EASPORTSFIFA23UltimateEdition_EACanada_Editions_S2_1200x1600-818a94c682b55e8c54f4e3d837782ff9.jpg"
     },
     {
-      "Id": "C:\\Users\\user\\Desktop\\Cube Game\\CubeGame\\wwwroot\\uploads\\EGS_Eville_VestGames_S2_1200x1600-eba8f9d92d779e56c17cbc865675e8f3.jpg",
+      "Id": "D:\\my hard\\ITI\\Graduation project\\CubeGame\\Cube Game\\CubeGame\\wwwroot\\uploads\\EGS_Eville_VestGames_S2_1200x1600-eba8f9d92d779e56c17cbc865675e8f3.jpg",
       "PackagePath": "staticwebassets\\uploads\\EGS_Eville_VestGames_S2_1200x1600-eba8f9d92d779e56c17cbc865675e8f3.jpg"
     },
     {
-      "Id": "C:\\Users\\user\\Desktop\\Cube Game\\CubeGame\\wwwroot\\uploads\\EGS_FalloutNewVegas_ObsidianEntertainment_S2_1200x1600-866fe8b8f56e2e7bb862c49bf0627b9a.jpg",
+      "Id": "D:\\my hard\\ITI\\Graduation project\\CubeGame\\Cube Game\\CubeGame\\wwwroot\\uploads\\EGS_FalloutNewVegas_ObsidianEntertainment_S2_1200x1600-866fe8b8f56e2e7bb862c49bf0627b9a.jpg",
       "PackagePath": "staticwebassets\\uploads\\EGS_FalloutNewVegas_ObsidianEntertainment_S2_1200x1600-866fe8b8f56e2e7bb862c49bf0627b9a.jpg"
     },
     {
-      "Id": "C:\\Users\\user\\Desktop\\Cube Game\\CubeGame\\wwwroot\\uploads\\EGS_GodofWar_SantaMonicaStudio_S2_1200x1600-fbdf3cbc2980749091d52751ffabb7b7_1200x1600-fbdf3cbc29807.jpg",
+      "Id": "D:\\my hard\\ITI\\Graduation project\\CubeGame\\Cube Game\\CubeGame\\wwwroot\\uploads\\EGS_GodofWar_SantaMonicaStudio_S2_1200x1600-fbdf3cbc2980749091d52751ffabb7b7_1200x1600-fbdf3cbc29807.jpg",
       "PackagePath": "staticwebassets\\uploads\\EGS_GodofWar_SantaMonicaStudio_S2_1200x1600-fbdf3cbc2980749091d52751ffabb7b7_1200x1600-fbdf3cbc29807.jpg"
     },
     {
-      "Id": "C:\\Users\\user\\Desktop\\Cube Game\\CubeGame\\wwwroot\\uploads\\EGS_RacingFanEdition_RaceWardStudio_Bundles_S2_1200x1600-c51c2669a1efa9be95de5121d1f8ec51_1200x1600-c51c2669a1efa9be95de5121d1f8ec51.jpg",
+      "Id": "D:\\my hard\\ITI\\Graduation project\\CubeGame\\Cube Game\\CubeGame\\wwwroot\\uploads\\EGS_RacingFanEdition_RaceWardStudio_Bundles_S2_1200x1600-c51c2669a1efa9be95de5121d1f8ec51_1200x1600-c51c2669a1efa9be95de5121d1f8ec51.jpg",
       "PackagePath": "staticwebassets\\uploads\\EGS_RacingFanEdition_RaceWardStudio_Bundles_S2_1200x1600-c51c2669a1efa9be95de5121d1f8ec51_1200x1600-c51c2669a1efa9be95de5121d1f8ec51.jpg"
     },
     {
-      "Id": "C:\\Users\\user\\Desktop\\Cube Game\\CubeGame\\wwwroot\\uploads\\EGS_TTIsleofManRideontheEdge3_RaceWardStudio_S2_1200x1600-4ac32d6b94d5daf827b318d511acfe65.jpg",
+      "Id": "D:\\my hard\\ITI\\Graduation project\\CubeGame\\Cube Game\\CubeGame\\wwwroot\\uploads\\EGS_TTIsleofManRideontheEdge3_RaceWardStudio_S2_1200x1600-4ac32d6b94d5daf827b318d511acfe65.jpg",
       "PackagePath": "staticwebassets\\uploads\\EGS_TTIsleofManRideontheEdge3_RaceWardStudio_S2_1200x1600-4ac32d6b94d5daf827b318d511acfe65.jpg"
     },
     {
-      "Id": "C:\\Users\\user\\Desktop\\Cube Game\\CubeGame\\wwwroot\\uploads\\EGS_TheLordoftheRingsGollumPreciousEdition_DaedalicEntertainment_Editions_S2_1200x1600-599c95160dcb5.jpg",
+      "Id": "D:\\my hard\\ITI\\Graduation project\\CubeGame\\Cube Game\\CubeGame\\wwwroot\\uploads\\EGS_TheLordoftheRingsGollumPreciousEdition_DaedalicEntertainment_Editions_S2_1200x1600-599c95160dcb5.jpg",
       "PackagePath": "staticwebassets\\uploads\\EGS_TheLordoftheRingsGollumPreciousEdition_DaedalicEntertainment_Editions_S2_1200x1600-599c95160dcb5.jpg"
     },
     {
-      "Id": "C:\\Users\\user\\Desktop\\Cube Game\\CubeGame\\wwwroot\\uploads\\EGS_theHunterCalloftheWildEmeraldCoastAustr_ExpansiveWorlds_AddOn_S2_1200x1600-23b1391a1f95db97abb5f5d5a3155ccb.jpg",
+      "Id": "D:\\my hard\\ITI\\Graduation project\\CubeGame\\Cube Game\\CubeGame\\wwwroot\\uploads\\EGS_theHunterCalloftheWildEmeraldCoastAustr_ExpansiveWorlds_AddOn_S2_1200x1600-23b1391a1f95db97abb5f5d5a3155ccb.jpg",
       "PackagePath": "staticwebassets\\uploads\\EGS_theHunterCalloftheWildEmeraldCoastAustr_ExpansiveWorlds_AddOn_S2_1200x1600-23b1391a1f95db97abb5f5d5a3155ccb.jpg"
     },
     {
-      "Id": "C:\\Users\\user\\Desktop\\Cube Game\\CubeGame\\wwwroot\\uploads\\It-takes-two-review-2.jpg",
+      "Id": "D:\\my hard\\ITI\\Graduation project\\CubeGame\\Cube Game\\CubeGame\\wwwroot\\uploads\\It-takes-two-review-2.jpg",
       "PackagePath": "staticwebassets\\uploads\\It-takes-two-review-2.jpg"
     },
     {
-      "Id": "C:\\Users\\user\\Desktop\\Cube Game\\CubeGame\\wwwroot\\uploads\\Miasma_Portrait_Storefront_1200X1600_1200x1600-ffcbaca5bc9604b9c5d9db1e883f15ec.jpg",
+      "Id": "D:\\my hard\\ITI\\Graduation project\\CubeGame\\Cube Game\\CubeGame\\wwwroot\\uploads\\Miasma_Portrait_Storefront_1200X1600_1200x1600-ffcbaca5bc9604b9c5d9db1e883f15ec.jpg",
       "PackagePath": "staticwebassets\\uploads\\Miasma_Portrait_Storefront_1200X1600_1200x1600-ffcbaca5bc9604b9c5d9db1e883f15ec.jpg"
     },
     {
-      "Id": "C:\\Users\\user\\Desktop\\Cube Game\\CubeGame\\wwwroot\\uploads\\barrett-foster--chapter-one-lgxrt.jpg",
+      "Id": "D:\\my hard\\ITI\\Graduation project\\CubeGame\\Cube Game\\CubeGame\\wwwroot\\uploads\\barrett-foster--chapter-one-lgxrt.jpg",
       "PackagePath": "staticwebassets\\uploads\\barrett-foster--chapter-one-lgxrt.jpg"
     },
     {
-      "Id": "C:\\Users\\user\\Desktop\\Cube Game\\CubeGame\\wwwroot\\uploads\\battle-ram.avif",
+      "Id": "D:\\my hard\\ITI\\Graduation project\\CubeGame\\Cube Game\\CubeGame\\wwwroot\\uploads\\battle-ram.avif",
       "PackagePath": "staticwebassets\\uploads\\battle-ram.avif"
     },
     {
-      "Id": "C:\\Users\\user\\Desktop\\Cube Game\\CubeGame\\wwwroot\\uploads\\bg-signup.png",
+      "Id": "D:\\my hard\\ITI\\Graduation project\\CubeGame\\Cube Game\\CubeGame\\wwwroot\\uploads\\bg-signup.png",
       "PackagePath": "staticwebassets\\uploads\\bg-signup.png"
     },
     {
-      "Id": "C:\\Users\\user\\Desktop\\Cube Game\\CubeGame\\wwwroot\\uploads\\card.png",
+      "Id": "D:\\my hard\\ITI\\Graduation project\\CubeGame\\Cube Game\\CubeGame\\wwwroot\\uploads\\card.png",
       "PackagePath": "staticwebassets\\uploads\\card.png"
     },
     {
-      "Id": "C:\\Users\\user\\Desktop\\Cube Game\\CubeGame\\wwwroot\\uploads\\celestia-ultimate-rvmrf.jpg",
+      "Id": "D:\\my hard\\ITI\\Graduation project\\CubeGame\\Cube Game\\CubeGame\\wwwroot\\uploads\\celestia-ultimate-rvmrf.jpg",
       "PackagePath": "staticwebassets\\uploads\\celestia-ultimate-rvmrf.jpg"
     },
     {
-      "Id": "C:\\Users\\user\\Desktop\\Cube Game\\CubeGame\\wwwroot\\uploads\\conjury-revell-1d2kq.jpg",
+      "Id": "D:\\my hard\\ITI\\Graduation project\\CubeGame\\Cube Game\\CubeGame\\wwwroot\\uploads\\conjury-revell-1d2kq.jpg",
       "PackagePath": "staticwebassets\\uploads\\conjury-revell-1d2kq.jpg"
     },
     {
-      "Id": "C:\\Users\\user\\Desktop\\Cube Game\\CubeGame\\wwwroot\\uploads\\death-or-treat-1lnw7.jpg",
+      "Id": "D:\\my hard\\ITI\\Graduation project\\CubeGame\\Cube Game\\CubeGame\\wwwroot\\uploads\\death-or-treat-1lnw7.jpg",
       "PackagePath": "staticwebassets\\uploads\\death-or-treat-1lnw7.jpg"
     },
     {
-      "Id": "C:\\Users\\user\\Desktop\\Cube Game\\CubeGame\\wwwroot\\uploads\\doomblade-58nf8.jpg",
+      "Id": "D:\\my hard\\ITI\\Graduation project\\CubeGame\\Cube Game\\CubeGame\\wwwroot\\uploads\\doomblade-58nf8.jpg",
       "PackagePath": "staticwebassets\\uploads\\doomblade-58nf8.jpg"
     },
     {
-      "Id": "C:\\Users\\user\\Desktop\\Cube Game\\CubeGame\\wwwroot\\uploads\\elegies-aya-1636b.jpg",
+      "Id": "D:\\my hard\\ITI\\Graduation project\\CubeGame\\Cube Game\\CubeGame\\wwwroot\\uploads\\elegies-aya-1636b.jpg",
       "PackagePath": "staticwebassets\\uploads\\elegies-aya-1636b.jpg"
     },
     {
-      "Id": "C:\\Users\\user\\Desktop\\Cube Game\\CubeGame\\wwwroot\\uploads\\elven-rivers-the-forgotten-lands-collectors-edition-p46d3.jpg",
+      "Id": "D:\\my hard\\ITI\\Graduation project\\CubeGame\\Cube Game\\CubeGame\\wwwroot\\uploads\\elven-rivers-the-forgotten-lands-collectors-edition-p46d3.jpg",
       "PackagePath": "staticwebassets\\uploads\\elven-rivers-the-forgotten-lands-collectors-edition-p46d3.jpg"
     },
     {
-      "Id": "C:\\Users\\user\\Desktop\\Cube Game\\CubeGame\\wwwroot\\uploads\\heroes-of-shaola-ow2ya.jpg",
+      "Id": "D:\\my hard\\ITI\\Graduation project\\CubeGame\\Cube Game\\CubeGame\\wwwroot\\uploads\\heroes-of-shaola-ow2ya.jpg",
       "PackagePath": "staticwebassets\\uploads\\heroes-of-shaola-ow2ya.jpg"
     },
     {
-      "Id": "C:\\Users\\user\\Desktop\\Cube Game\\CubeGame\\wwwroot\\uploads\\images.jfif",
+      "Id": "D:\\my hard\\ITI\\Graduation project\\CubeGame\\Cube Game\\CubeGame\\wwwroot\\uploads\\images.jfif",
       "PackagePath": "staticwebassets\\uploads\\images.jfif"
     },
     {
-      "Id": "C:\\Users\\user\\Desktop\\Cube Game\\CubeGame\\wwwroot\\uploads\\mia-and-the-dragon-princess-1o406.jpg",
+      "Id": "D:\\my hard\\ITI\\Graduation project\\CubeGame\\Cube Game\\CubeGame\\wwwroot\\uploads\\mia-and-the-dragon-princess-1o406.jpg",
       "PackagePath": "staticwebassets\\uploads\\mia-and-the-dragon-princess-1o406.jpg"
     },
     {
-      "Id": "C:\\Users\\user\\Desktop\\Cube Game\\CubeGame\\wwwroot\\uploads\\mystery-solitaire-grimms-tales-p69f2.jpg",
+      "Id": "D:\\my hard\\ITI\\Graduation project\\CubeGame\\Cube Game\\CubeGame\\wwwroot\\uploads\\mystery-solitaire-grimms-tales-p69f2.jpg",
       "PackagePath": "staticwebassets\\uploads\\mystery-solitaire-grimms-tales-p69f2.jpg"
     },
     {
-      "Id": "C:\\Users\\user\\Desktop\\Cube Game\\CubeGame\\wwwroot\\uploads\\project-chaos-11nlm.jpg",
+      "Id": "D:\\my hard\\ITI\\Graduation project\\CubeGame\\Cube Game\\CubeGame\\wwwroot\\uploads\\project-chaos-11nlm.jpg",
       "PackagePath": "staticwebassets\\uploads\\project-chaos-11nlm.jpg"
     },
     {
-      "Id": "C:\\Users\\user\\Desktop\\Cube Game\\CubeGame\\wwwroot\\uploads\\recollection-1im1z.jpg",
+      "Id": "D:\\my hard\\ITI\\Graduation project\\CubeGame\\Cube Game\\CubeGame\\wwwroot\\uploads\\recollection-1im1z.jpg",
       "PackagePath": "staticwebassets\\uploads\\recollection-1im1z.jpg"
     },
     {
-      "Id": "C:\\Users\\user\\Desktop\\Cube Game\\CubeGame\\wwwroot\\uploads\\sir-whoopass--immortal-death-1laj1.jpg",
+      "Id": "D:\\my hard\\ITI\\Graduation project\\CubeGame\\Cube Game\\CubeGame\\wwwroot\\uploads\\sir-whoopass--immortal-death-1laj1.jpg",
       "PackagePath": "staticwebassets\\uploads\\sir-whoopass--immortal-death-1laj1.jpg"
     },
     {
-      "Id": "C:\\Users\\user\\Desktop\\Cube Game\\CubeGame\\wwwroot\\uploads\\spiritle-1marg.jpg",
+      "Id": "D:\\my hard\\ITI\\Graduation project\\CubeGame\\Cube Game\\CubeGame\\wwwroot\\uploads\\spiritle-1marg.jpg",
       "PackagePath": "staticwebassets\\uploads\\spiritle-1marg.jpg"
     },
     {
-      "Id": "C:\\Users\\user\\Desktop\\Cube Game\\CubeGame\\wwwroot\\uploads\\tabletop-playground-lc9e9.jpg",
+      "Id": "D:\\my hard\\ITI\\Graduation project\\CubeGame\\Cube Game\\CubeGame\\wwwroot\\uploads\\tabletop-playground-lc9e9.jpg",
       "PackagePath": "staticwebassets\\uploads\\tabletop-playground-lc9e9.jpg"
     },
     {
-      "Id": "C:\\Users\\user\\Desktop\\Cube Game\\CubeGame\\wwwroot\\uploads\\tennis-manager-2023-1410q.jpg",
+      "Id": "D:\\my hard\\ITI\\Graduation project\\CubeGame\\Cube Game\\CubeGame\\wwwroot\\uploads\\tennis-manager-2023-1410q.jpg",
       "PackagePath": "staticwebassets\\uploads\\tennis-manager-2023-1410q.jpg"
     },
     {
-      "Id": "C:\\Users\\user\\Desktop\\Cube Game\\CubeGame\\wwwroot\\uploads\\the-inheritance-of-crimson-manor-z7a9y.jpg",
+      "Id": "D:\\my hard\\ITI\\Graduation project\\CubeGame\\Cube Game\\CubeGame\\wwwroot\\uploads\\the-inheritance-of-crimson-manor-z7a9y.jpg",
       "PackagePath": "staticwebassets\\uploads\\the-inheritance-of-crimson-manor-z7a9y.jpg"
     },
     {
-      "Id": "C:\\Users\\user\\Desktop\\Cube Game\\CubeGame\\wwwroot\\uploads\\to-hell-with-the-ugly-rel8l.jpg",
+      "Id": "D:\\my hard\\ITI\\Graduation project\\CubeGame\\Cube Game\\CubeGame\\wwwroot\\uploads\\to-hell-with-the-ugly-rel8l.jpg",
       "PackagePath": "staticwebassets\\uploads\\to-hell-with-the-ugly-rel8l.jpg"
     },
     {
-      "Id": "C:\\Users\\user\\Desktop\\Cube Game\\CubeGame\\wwwroot\\uploads\\worlds-war-1-exyog.jpg",
+      "Id": "D:\\my hard\\ITI\\Graduation project\\CubeGame\\Cube Game\\CubeGame\\wwwroot\\uploads\\worlds-war-1-exyog.jpg",
       "PackagePath": "staticwebassets\\uploads\\worlds-war-1-exyog.jpg"
     },
     {

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\Desktop\\Cube Game\\CubeCompany.DAL\\CubeGame.DAL.csproj": {}
+    "D:\\my hard\\ITI\\Graduation project\\CubeGame\\Cube Game\\CubeCompany.DAL\\CubeGame.DAL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\Desktop\\Cube Game\\CubeCompany.DAL\\CubeGame.DAL.csproj": {
+    "D:\\my hard\\ITI\\Graduation project\\CubeGame\\Cube Game\\CubeCompany.DAL\\CubeGame.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\Desktop\\Cube Game\\CubeCompany.DAL\\CubeGame.DAL.csproj",
+        "projectUniqueName": "D:\\my hard\\ITI\\Graduation project\\CubeGame\\Cube Game\\CubeCompany.DAL\\CubeGame.DAL.csproj",
         "projectName": "CubeGame.DAL",
-        "projectPath": "C:\\Users\\user\\Desktop\\Cube Game\\CubeCompany.DAL\\CubeGame.DAL.csproj",
+        "projectPath": "D:\\my hard\\ITI\\Graduation project\\CubeGame\\Cube Game\\CubeCompany.DAL\\CubeGame.DAL.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\Desktop\\Cube Game\\CubeCompany.DAL\\obj\\",
+        "outputPath": "D:\\my hard\\ITI\\Graduation project\\CubeGame\\Cube Game\\CubeCompany.DAL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",

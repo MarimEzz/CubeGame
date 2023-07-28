@@ -11588,11 +11588,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\Desktop\\Cube Game\\CubeGame\\CubeGame.csproj",
+      "projectUniqueName": "D:\\my hard\\ITI\\Graduation project\\CubeGame\\Cube Game\\CubeGame\\CubeGame.csproj",
       "projectName": "CubeGame",
-      "projectPath": "C:\\Users\\user\\Desktop\\Cube Game\\CubeGame\\CubeGame.csproj",
+      "projectPath": "D:\\my hard\\ITI\\Graduation project\\CubeGame\\Cube Game\\CubeGame\\CubeGame.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user\\Desktop\\Cube Game\\CubeGame\\obj\\",
+      "outputPath": "D:\\my hard\\ITI\\Graduation project\\CubeGame\\Cube Game\\CubeGame\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -11609,8 +11609,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\user\\Desktop\\Cube Game\\CubeGame.BL\\CubeGame.BL.csproj": {
-              "projectPath": "C:\\Users\\user\\Desktop\\Cube Game\\CubeGame.BL\\CubeGame.BL.csproj"
+            "D:\\my hard\\ITI\\Graduation project\\CubeGame\\Cube Game\\CubeGame.BL\\CubeGame.BL.csproj": {
+              "projectPath": "D:\\my hard\\ITI\\Graduation project\\CubeGame\\Cube Game\\CubeGame.BL\\CubeGame.BL.csproj"
             }
           }
         }

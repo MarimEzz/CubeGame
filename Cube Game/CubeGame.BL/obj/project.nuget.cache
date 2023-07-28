@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DTwkS7TEIBCRyi/jcfIsIWUIDOeCXK2i6B5ste1fd7BXjkbW9hBzFrLgU991FOUf7UmkvXgud0mZy9sEGO+1Xg==",
+  "dgSpecHash": "HL6ypB6LjYHBr8GvFYLVLAGttt2EkutMz9Jv3UTMUeDQ238j4y05K9EvssjImIK7ovCZvsKw8zsF/2VZEPKe9A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\user\\Desktop\\Cube Game\\CubeGame.BL\\CubeGame.BL.csproj",
+  "projectFilePath": "D:\\my hard\\ITI\\Graduation project\\CubeGame\\Cube Game\\CubeGame.BL\\CubeGame.BL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

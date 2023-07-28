@@ -26,3 +26,17 @@ C:\Users\user\Desktop\Cube Game\CubeCompany.DAL\obj\Debug\net7.0\refint\CubeGame
 C:\Users\user\Desktop\Cube Game\CubeCompany.DAL\obj\Debug\net7.0\CubeGame.DAL.pdb
 C:\Users\user\Desktop\Cube Game\CubeCompany.DAL\obj\Debug\net7.0\CubeGame.DAL.genruntimeconfig.cache
 C:\Users\user\Desktop\Cube Game\CubeCompany.DAL\obj\Debug\net7.0\ref\CubeGame.DAL.dll
+D:\my hard\ITI\Graduation project\CubeGame\Cube Game\CubeCompany.DAL\bin\Debug\net7.0\CubeGame.DAL.deps.json
+D:\my hard\ITI\Graduation project\CubeGame\Cube Game\CubeCompany.DAL\bin\Debug\net7.0\CubeGame.DAL.runtimeconfig.json
+D:\my hard\ITI\Graduation project\CubeGame\Cube Game\CubeCompany.DAL\bin\Debug\net7.0\CubeGame.DAL.dll
+D:\my hard\ITI\Graduation project\CubeGame\Cube Game\CubeCompany.DAL\bin\Debug\net7.0\CubeGame.DAL.pdb
+D:\my hard\ITI\Graduation project\CubeGame\Cube Game\CubeCompany.DAL\obj\Debug\net7.0\CubeGame.DAL.csproj.AssemblyReference.cache
+D:\my hard\ITI\Graduation project\CubeGame\Cube Game\CubeCompany.DAL\obj\Debug\net7.0\CubeGame.DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\my hard\ITI\Graduation project\CubeGame\Cube Game\CubeCompany.DAL\obj\Debug\net7.0\CubeGame.DAL.AssemblyInfoInputs.cache
+D:\my hard\ITI\Graduation project\CubeGame\Cube Game\CubeCompany.DAL\obj\Debug\net7.0\CubeGame.DAL.AssemblyInfo.cs
+D:\my hard\ITI\Graduation project\CubeGame\Cube Game\CubeCompany.DAL\obj\Debug\net7.0\CubeGame.DAL.csproj.CoreCompileInputs.cache
+D:\my hard\ITI\Graduation project\CubeGame\Cube Game\CubeCompany.DAL\obj\Debug\net7.0\CubeGame.DAL.dll
+D:\my hard\ITI\Graduation project\CubeGame\Cube Game\CubeCompany.DAL\obj\Debug\net7.0\refint\CubeGame.DAL.dll
+D:\my hard\ITI\Graduation project\CubeGame\Cube Game\CubeCompany.DAL\obj\Debug\net7.0\CubeGame.DAL.pdb
+D:\my hard\ITI\Graduation project\CubeGame\Cube Game\CubeCompany.DAL\obj\Debug\net7.0\CubeGame.DAL.genruntimeconfig.cache
+D:\my hard\ITI\Graduation project\CubeGame\Cube Game\CubeCompany.DAL\obj\Debug\net7.0\ref\CubeGame.DAL.dll

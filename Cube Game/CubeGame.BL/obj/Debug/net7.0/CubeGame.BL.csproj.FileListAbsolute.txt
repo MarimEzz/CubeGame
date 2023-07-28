@@ -28,3 +28,18 @@ C:\Users\user\Desktop\Cube Game\CubeGame.BL\obj\Debug\net7.0\CubeGame.BL.dll
 C:\Users\user\Desktop\Cube Game\CubeGame.BL\obj\Debug\net7.0\refint\CubeGame.BL.dll
 C:\Users\user\Desktop\Cube Game\CubeGame.BL\obj\Debug\net7.0\CubeGame.BL.pdb
 C:\Users\user\Desktop\Cube Game\CubeGame.BL\obj\Debug\net7.0\ref\CubeGame.BL.dll
+D:\my hard\ITI\Graduation project\CubeGame\Cube Game\CubeGame.BL\bin\Debug\net7.0\CubeGame.BL.deps.json
+D:\my hard\ITI\Graduation project\CubeGame\Cube Game\CubeGame.BL\bin\Debug\net7.0\CubeGame.BL.dll
+D:\my hard\ITI\Graduation project\CubeGame\Cube Game\CubeGame.BL\bin\Debug\net7.0\CubeGame.BL.pdb
+D:\my hard\ITI\Graduation project\CubeGame\Cube Game\CubeGame.BL\bin\Debug\net7.0\CubeGame.DAL.dll
+D:\my hard\ITI\Graduation project\CubeGame\Cube Game\CubeGame.BL\bin\Debug\net7.0\CubeGame.DAL.pdb
+D:\my hard\ITI\Graduation project\CubeGame\Cube Game\CubeGame.BL\obj\Debug\net7.0\CubeGame.BL.csproj.AssemblyReference.cache
+D:\my hard\ITI\Graduation project\CubeGame\Cube Game\CubeGame.BL\obj\Debug\net7.0\CubeGame.BL.GeneratedMSBuildEditorConfig.editorconfig
+D:\my hard\ITI\Graduation project\CubeGame\Cube Game\CubeGame.BL\obj\Debug\net7.0\CubeGame.BL.AssemblyInfoInputs.cache
+D:\my hard\ITI\Graduation project\CubeGame\Cube Game\CubeGame.BL\obj\Debug\net7.0\CubeGame.BL.AssemblyInfo.cs
+D:\my hard\ITI\Graduation project\CubeGame\Cube Game\CubeGame.BL\obj\Debug\net7.0\CubeGame.BL.csproj.CoreCompileInputs.cache
+D:\my hard\ITI\Graduation project\CubeGame\Cube Game\CubeGame.BL\obj\Debug\net7.0\CubeGame.BL.csproj.CopyComplete
+D:\my hard\ITI\Graduation project\CubeGame\Cube Game\CubeGame.BL\obj\Debug\net7.0\CubeGame.BL.dll
+D:\my hard\ITI\Graduation project\CubeGame\Cube Game\CubeGame.BL\obj\Debug\net7.0\refint\CubeGame.BL.dll
+D:\my hard\ITI\Graduation project\CubeGame\Cube Game\CubeGame.BL\obj\Debug\net7.0\CubeGame.BL.pdb
+D:\my hard\ITI\Graduation project\CubeGame\Cube Game\CubeGame.BL\obj\Debug\net7.0\ref\CubeGame.BL.dll
