@@ -37,4 +37,5 @@ Back-End : C# – SQL Server – ASP.Net Web API
 <img src="https://github.com/MarimEzz/CubeGame/blob/main/screenshots/wishlist.png" width="400" height="300">
 <img src="https://github.com/MarimEzz/CubeGame/blob/main/screenshots/cart.png" width="400" height="300">
 <img src="https://github.com/MarimEzz/CubeGame/blob/main/screenshots/payment.png" width="400" height="300">
+<img src="https://github.com/MarimEzz/CubeGame/blob/main/screenshots/dashboard.png" width="400" height="300">
 </div>
