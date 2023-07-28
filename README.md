@@ -17,7 +17,7 @@ Currently, the project is not available online due to ongoing updates being cond
 <img src="https://github.com/MarimEzz/CubeGame/blob/main/screenshots/filter%20by%20genre.png" width="450" height="400">
 <img src="https://github.com/MarimEzz/CubeGame/blob/main/screenshots/filter.png" width="450" height="300">
 <img src="https://github.com/MarimEzz/CubeGame/blob/main/screenshots/search.png" width="450" height="300">
-<img src="https://github.com/MarimEzz/CubeGame/blob/main/screenshots/cover%20game.png" width="450" height="300">
+<img src="https://github.com/MarimEzz/CubeGame/blob/main/screenshots/cover%20game.png" width="450" height="800">
 <img src="https://github.com/MarimEzz/CubeGame/blob/main/screenshots/wishlist.png" width="450" height="300">
 <img src="https://github.com/MarimEzz/CubeGame/blob/main/screenshots/cart.png" width="450" height="300">
 <img src="https://github.com/MarimEzz/CubeGame/blob/main/screenshots/payment.png" width="450" height="300">
