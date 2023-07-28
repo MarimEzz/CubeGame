@@ -7,8 +7,8 @@ Currently, the project is not available online due to ongoing updates being cond
 
 # Gallery:
 <div style="display:flex;">
-<img src="https://github.com/MarimEzz/CubeGame/blob/main/screenshots/API%20Swagger.png" width="500" height="500">
-<img src="https://github.com/MarimEzz/CubeGame/blob/main/screenshots/database%20tables.jpeg" width="500" height="500">
+<img src="https://github.com/MarimEzz/CubeGame/blob/main/screenshots/API%20Swagger.png" width="450" height="500">
+<img src="https://github.com/MarimEzz/CubeGame/blob/main/screenshots/database%20tables.jpeg" width="450" height="500">
 <img src="https://github.com/MarimEzz/CubeGame/blob/main/screenshots/signup.png" width="500" height="500">
 <img src="https://github.com/MarimEzz/CubeGame/blob/main/screenshots/login.png" width="500" height="500">
 <img src="https://github.com/MarimEzz/CubeGame/blob/main/screenshots/about-distribution.png" width="500" height="500">
