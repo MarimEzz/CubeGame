@@ -5,6 +5,22 @@ Currently, the project is not available online due to ongoing updates being cond
 
 "Cube Game" a Designed and developed an online game store that meets the needs of both users and administrators using ASP.NET Core Web API and Angular framework. The store allows users to browse, purchase, and download games and allows admin to add, edit and delete any category or games. we are currently developing version 2 of this project. it will includ a live chat feature that will provide real-time support to our users. Additionally, we will be introducing a vendor management system that will allow any company to upload their games to our website. This project was a collaborative effort undertaken by a group of ITI 4-months trainees, constituting their graduation project.
 
+# Describe Our Project
+a game store application is a software program that allows users to browse, purchase, and download video games. Once a user has chosen a game, they can purchase it through the application using a variety of payment methods. Once the purchase is complete, the game is typically downloaded directly to the user's device. Some popular examples of game store applications include Steam, Epic Games Store.
+Who Can Use It : User - Admin
+
+# Functions & Requirments
+- Users can search for games based on genre, platform, and other criteria.
+- Users can also view rates, view images and trailers, access other information about the games before making a purchase.
+- Letting gamers create wishlists of games they are interested in.
+- allow users to build a digital library of their purchased games. This can make it easy to keep track of all the games you own and download them onto new devices.
+- Game lists like top sellers, most played, recently released, top rate, most popular, coming soon. Quick access to lists of particularly popular or acclaimed games.
+
+# Tools
+UI/UX Design : Adobe Xd
+Front-End : HTML – CSS – JS – Bootstrap – Angular
+Back-End : C# – SQL Server – ASP.Net Web API
+
 # Gallery:
 <div style="display:flex;">
 <img src="https://github.com/MarimEzz/CubeGame/blob/main/screenshots/API%20Swagger.png" width="450" height="500">
