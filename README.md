@@ -1,7 +1,6 @@
 # CubeGame
 
-Currently, the project is not available online due to ongoing updates being conducted.
-<img src="https://github.com/MarimEzz/CubeGame/blob/main/screenshots/All%20Requirments.png" width="750">
+<iframe width="560" height="315" src="https://drive.google.com/uc?export=download&id=1o7WegPBP6B_mDmeLwELg_5FxiOfX_xZO" frameborder="0" allowfullscreen></iframe>
 
 "Cube Game" a Designed and developed an online game store that meets the needs of both users and administrators using ASP.NET Core Web API and Angular framework. The store allows users to browse, purchase, and download games and allows admin to add, edit and delete any category or games. we are currently developing version 2 of this project. it will includ a live chat feature that will provide real-time support to our users. Additionally, we will be introducing a vendor management system that will allow any company to upload their games to our website. This project was a collaborative effort undertaken by a group of ITI 4-months trainees, constituting their graduation project.
 
@@ -39,3 +38,7 @@ Back-End : C# – SQL Server – ASP.Net Web API
 <img src="https://github.com/MarimEzz/CubeGame/blob/main/screenshots/payment.png" width="400" height="300">
 <img src="https://github.com/MarimEzz/CubeGame/blob/main/screenshots/dashboard.png" width="400" height="300">
 </div>
+
+# Currently, the project is not available online due to ongoing updates being conducted.
+<img src="https://github.com/MarimEzz/CubeGame/blob/main/screenshots/All%20Requirments.png" width="750">
+
