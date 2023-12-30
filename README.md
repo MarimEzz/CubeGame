@@ -15,7 +15,7 @@ Who Can Use It : User - Admin
 - Letting gamers create wishlists of games they are interested in.
 - allow users to build a digital library of their purchased games. This can make it easy to keep track of all the games you own and download them onto new devices.
 - Game lists like top sellers, most played, recently released, top rate, most popular, coming soon. Quick access to lists of particularly popular or acclaimed games.
-
+- Admin has the ability to manage games and genres, including adding, editing, or deleting them from admin dashboard.
 # Tools
 UI/UX Design : Adobe Xd
 Front-End : HTML – CSS – JS – Bootstrap – Angular
