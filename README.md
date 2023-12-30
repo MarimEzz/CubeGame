@@ -1,6 +1,7 @@
 # CubeGame
 
-<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/898729859?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="CubeGame"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+[![Video](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Full_Stop_S01E08.png/1920px-Full_Stop_S01E08.png)](https://vimeo.com/898729859?share=copy)
+
 
 "Cube Game" a Designed and developed an online game store that meets the needs of both users and administrators using ASP.NET Core Web API and Angular framework. The store allows users to browse, purchase, and download games and allows admin to add, edit and delete any category or games. we are currently developing version 2 of this project. it will includ a live chat feature that will provide real-time support to our users. Additionally, we will be introducing a vendor management system that will allow any company to upload their games to our website. This project was a collaborative effort undertaken by a group of ITI 4-months trainees, constituting their graduation project.
 
